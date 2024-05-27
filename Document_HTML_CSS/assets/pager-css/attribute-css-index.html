@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Css</title>
+  <link rel="shortcut icon" href="../img/images.png" type="image/x-icon">
+  <link rel="stylesheet" href="./data/style/header.css">
+  <link rel="stylesheet" href="./data/style/part-navigation.css">
+  <link rel="stylesheet" href="./data/style/main-content.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <div id="wrap-website">
+    <!-- Phần header -->
+    <div id="header">
+      <div id="wrap-header">
+        <div class="header-logo">
+          <h1 class="title">CSS Document </h1>
+        </div>
+        <div class="header-search">
+          <input type="text" placeholder="search ...">
+          <span><i class="fa fa-search"></i></span>
+        </div>
+        <div class="header-register">
+          <form action="">
+            <a href="" style="--background: #f00;">Đăng Nhập</a>
+            <a href="" style="--background: #111;">Đăng Xuất</a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phần Navigation (menu) -->
+    <div id="navigation">
+      <div class="menu">
+        <ul id="nav">
+          <li>
+            <a href="" class="style-nav">Attribute with character A</a>
+            <ul class="sub-nav">
+              <li><a href="./data/properties-character-B.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character B</a></li>
+              <li><a href="./data/properties-character-C_D_E.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character C_D_E</a></li>
+              <li><a href="./data/properties-character-F.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character F</a></li>
+              <li><a href="./data/properties-character-G_H.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character G_H</a></li>
+              <li><a href="./data/properties-character-I_J_K_L.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character I J K L</a></li>
+              <li><a href="./data/properties-character-M.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character M</a></li>
+              <li><a href="./data/properties-character-O.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character O</a></li>
+              <li><a href="./data/properties-character-P_Q_R.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character P_Q_R</a></li>
+              <li><a href="./data/properties-character-S.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character S</a></li>
+              <li><a href="./data/properties-character-T.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character T</a></li>
+              <li><a href="./data/properties-character-U_V_W_Z.html"><i class="fa-solid fa-hand-pointer fa-rotate-90"></i> Attribute character U V W Z</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="attribute">
+        <a href="#accent-color">accent-color</a>
+        <a href="#align-content">align-content</a>
+        <a href="#align-items">align-items</a>
+        <a href="#align-self">align-self</a>
+        <a href="#all">all</a>
+        <a href="#animation">animation</a>
+        <a href="#animation-delay">animation-delay</a>
+        <a href="#animation-direction">animation-direction</a>
+        <a href="#animation-duration">animation-duration</a>
+        <a href="#animation-fill-mode">animation-fill-mode</a>
+        <a href="#animation-iteration-count">animation-iteration-count</a>
+        <a href="#animation-name">animation-name</a>
+        <a href="#animation-play-state">animation-play-state</a>
+        <a href="#animation-timing-function">animation-timing-function</a>
+        <a href="#aspect-ratio">aspect-ratio</a>
+      </div>
+    </div>
+
+    <!-- Content website -->
+    <div id="main-content">
+      <div class="img-css">
+        <img src="../assets/img/css_mg/img-css.png" alt="img css demo">
+      </div>
+
+      <!-- Content Css -->
+      <div class="css-content">
+        <div class="css-text">
+          <div class="title">
+            <h2>CSS là gì?</h2>
+          </div>
+          <div class="content">
+            <p>CSS là chữ viết tắt của Cascading Style Sheets, nó là một ngôn ngữ được sử dụng để tìm và
+              định dạng lại các phần tử được tạo ra bởi các ngôn ngữ đánh dấu (HTML). Nói ngắn gọn hơn
+              là ngôn ngữ tạo phong cách cho trang web. Bạn có thể hiểu đơn giản rằng, nếu HTML đóng vai
+              trò định dạng các phần tử trên website như việc tạo ra các đoạn văn bản, các tiêu đề, bảng,…thì
+              CSS sẽ giúp chúng ta có thể thêm style vào các phần tử HTML đó như đổi bố cục, màu sắc trang,
+              đổi màu chữ, font chữ, thay đổi cấu trúc…
+            </p>
+            <p>CSS được phát triển bởi W3C (World Wide Web Consortium) vào năm 1996, vì HTML không được thiết kế để gắn tag để giúp
+              định dạng trang web.</p>
+            <p>Phương thức hoạt động của CSS là nó sẽ tìm dựa vào các vùng chọn, vùng chọn có thể là tên một thẻ HTML, tên một ID,
+              class hay nhiều kiểu khác. Sau đó là nó sẽ áp dụng các thuộc tính cần thay đổi lên vùng chọn đó.</p>
+            <p>Mối tương quan giữa HTML và CSS rất mật thiết. HTML là ngôn ngữ markup (nền tảng của site) và CSS định hình phong
+              cách (tất cả những gì tạo nên giao diện website), chúng là không thể tách rời.</p>
+          </div>
+        </div>
+        <!-- Bố cục và cấu trúc một đoạn CSS -->
+        <div class="css-text">
+          <div class="title type-css">
+            <h2>Bố cục và cấu trúc một đoạn CSS</h2>
+          </div>
+          <div class="content">
+            <h3>Bố cục của một đoạn CSS</h3>
+            <p>Bố cục CSS thường chủ yếu dựa vào hình hộp và mỗi hộp đều chiếm những khoảng trống trên trang của bạn với các thuộc tính như:</p>
+            <!-- Content layout css-->
+            <div class="wrap-content">
+              <img src="../img/css-model.png" alt="img css-model">
+              <div class="explanation">
+                <ul>
+                  <p><strong>Trong Đó :</strong></p>
+                  <li><strong style="--color: #f8b975;">Padding </strong>: Gồm không gian xung quanh nội dung (ví dụ: xung quanh đoạn văn bản).</li>
+                  <li><strong style="--color: #fddd9b;">Border </strong>: Là đường liền nằm ngay bên ngoài phần đệm.</li>
+                  <li><strong style="--color: #c3d08b;">Margin </strong>: Là khoảng cách xung quanh bên ngoài của phần tử.</li>
+                </ul>
+              </div>
+            </div>
+            <h3>Cấu trúc của một đoạn CSS</h3>
+            <p>Một đoạn CSS bao gồm các phần như thế này:</p>
+            <!-- Content structure css-->
+            <div class="selector-css">
+              <img src="../img/structure-css.png" alt="img structure-css">
+              <div class="syntax-css">
+                <ul>
+                  <p><i class="fa-solid fa-hand-pointer fa-rotate-90" style="color: #ffa200;"></i> Syntax Css : Selector { Properties : value; Properties: value; }</li>
+                  <p><i class="fa-solid fa-hand-pointer fa-rotate-90" style="color: #ffa200;"></i> Example syntax css : p { color: red; text-align: center;}</li>
+                  <p><i class="fa-solid fa-hand-pointer fa-rotate-90" style="color: #ffa200;"></i> Example Explained</p>
+                  <li>p is a selector in CSS.</li>
+                  <li>color is a property, and red is the property value</li>
+                  <li>text-align is a property, and center is the property value</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Content define -->
+            <div class="text">
+              <h3>Định nghĩa của các phần trên như sau: </h3>
+              <p><strong>Bộ chọn (Selector):</strong> là mẫu để chọn phần tử HTML mà bạn muốn định nghĩa phong cách. Các selector được áp dụng cho các trường hợp sau:</p>
+              <ul>
+                <li>Tất cả phần tử theo một dạng cụ thể nào đó, ví dụ phần tử tiêu đề h1.</li>
+                <li>Thuộc tính id và class của các phần tử.</li>
+                <li>Các phần tử dựa vào mối liên quan với các phần tử khác trong cây phân cấp tài liệu.</li>
+              </ul>
+              <p><strong>Khai báo (Declaration):</strong> Khối khai báo chứa một hoặc nhiều khai báo, phân tách với nhau bằng các dấu chấm phẩy. Mỗi
+                khai báo gồm tên và giá trị đặc tính CSS, phân tách bằng dấu phẩy. Khai báo CSS luôn kết thúc bằng dấu chấm phẩy, khối
+                khai báo nằm trong các dấu ngoặc móc. Trong ví dụ dưới đây, các phần tử &#706;p&#707; sẽ được căn giữa, chữ màu đỏ.</p>
+              <p><strong>Thuộc tính (Properties):</strong> Những cách mà bạn có thể tạo kiểu cho một phần tử HTML. (Với trường hợp này
+                thì color được xem là một trong những thuộc tính của phần tử p). Chính vì vậy, với CSS thì bạn chỉ cần lựa chọn thuộc
+                tính mà chính bạn muốn tác động nhất trong bộ quy tắc của mình.</p>
+              <p><strong>Giá trị thuộc tính:</strong> Ở bên phải của thuộc tính sau dấu hai chấm(:), chúng ta sẽ sở hữu giá trị thuộc
+                tính mà việc lựa chọn trong số đó sẽ xuất hiện nhiều lần để có thể cho một thuộc tính cụ thể nào đó.</p>
+              <p>Các phiên bản của CSS 
+                <i class="fa-solid fa-hand-pointer fa-rotate-90"></i>
+                <a href="https://topdev.vn/blog/css-la-gi/#:~:text=cao%20t%E1%BA%A1i%20Topdev.-,C%C3%A1c%20phi%C3%AAn%20b%E1%BA%A3n%20c%E1%BB%A7a%20CSS,-CSS%20%C4%91%C6%B0%E1%BB%A3c%20xu%E1%BA%A5t" target="_blank">
+                  Css Versions
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Cách nhúng CSS vào website -->
+        <div class="css-text">
+          <div class="title type-css">
+            <h2>Cách nhúng CSS vào website</h2>
+          </div>
+          <div class="content text">
+            <p>Để CSS có thể thực thi trên website hoặc HTML Documents thì phải tiến hành nhúng CSS vào website. 
+              Nếu không, các định dạng CSS sẽ không thực thi trên HTML. Có 3 cách nhúng CSS vào website:</p>
+            <ol>
+              <li>Inline CSS - Nhúng trực tiếp vào tài liệu HTML thông qua cặp thẻ &#706;style&#707; &#706;/style&#707;.</li>
+              <li>Internal CSS - dùng thẻ &#706;style&#707; bên trong thẻ &#706;head&#707; của HTML để tạo ra nơi viết mã CSS.</li>
+              <li>External CSS - Tạo một tập tin .css riêng và nhúng vào tài liệu HTML thông qua cặp thẻ &#706;link&#707;.</li>
+            </ol>
+            <!-- Content in table : inline , Internal , External Css -->
+            <table>
+              <tr>
+                <th style="width: 12%;">Css style</th>
+                <th>Information abont styles embedded in Css</th>
+                <th style="width: 30%;">Example embed Css</th>
+              </tr>
+              <tr>
+                <td>Inline CSS</td>
+                <td>
+                  Nhúng trực tiếp vào tài liệu HTML thông qua cặp thẻ &#706;style&#707; &#706;/style&#707;.
+                  Đặt thuộc tính style vào thẻ mở của phần tử HTML, giá trị của thuộc tính style là các cặp thuộc 
+                  tính định dạng CSS. Mã CSS chỉ tác động nên chính phần tử đó.
+                </td>
+                <td>
+                  <img src="/assets/img/inline-css.png" alt="images inline-css" title="imagé demo embed Css">
+                  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_howto_inline" target="_blank">Example Inline-css</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Internal CSS</td>
+                <td>
+                  Đặt các cặp thuộc tính định dạng CSS vào bên trong cặp thẻ &#706;style type=”text/css”>&#706;/style> <br>
+                  Cặp thẻ &#706;style type=”text/css”>&#706;/style> thì được đặt bên trong cặp thẻ &#706;head>&#706;/head> <br>
+                  CSS dùng thẻ &#706;type&#707; bên trong thẻ &#706;head&#707; của HTML để tạo ra nơi viết mã CSS.
+                </td>
+                <td>
+                  <img src="/assets/img/internal-css.png" alt="images internal-css">
+                  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_howto_internal" target="_blank">Example Internal-css</a>
+                </td>
+              </tr>
+              <tr>
+                <td>External CSS</td>
+                <td>
+                  Với External CSS: Ta đặt các thuộc tính định dạng vào bên trong tập tin CSS. Đây là một tập tin hoàn toàn độc lập so 
+                  với file (File này thường được đặt phần mở rộng là .css) sau đó dùng thẻ link 
+                  &#706;link rel=”stylesheet” type=”text/css” href=”đường dẫn đến tập tin CSS”> đặt ở phần head 
+                  (cặp thẻ &#706;head>&#706;/head> của các tập tin HTML) để có thể thực hiện nhúng tập tin CSS vào trang web.
+                </td>
+                <td>
+                  <img src="/assets/img/exnternal-css.png" alt="images exnternal-css">
+                  <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_howto_external" target="_blank">Example External-css</a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <p>Thứ tự ưu tiên trong 
+                    <a href="https://viblo.asia/p/thu-tu-uu-tien-khong-css-dieu-co-ban-ma-khong-phai-ai-cung-biet-V3m5W4xWKO7" target="_blank">CSS</a>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Css attribute content section with character (A) -->
+      <div id="information-css">
+        <div class="title">
+          <h2>Thuộc tính trong Css define</h2>
+          <h3>Section content attribute with character (A)</h3>
+        </div>
+
+        <!-- Content attributes accent-color -->
+        <div id="accent-color" class="contains-css">
+          <div class="infor-css">
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>accent-color</strong></h3>
+            <div class="text">
+              <p>Thuộc tính accent-color trong CSS được sử dụng để tô màu lên những khu vực được chọn (active) trong các thẻ input form HTML.
+                Việc custom input form HTML là việc tất yếu bởi nó sẽ giúp design của web trông đẹp và thân thiện với người dùng hơn </p>
+                xem thêm tại website <i class="fa-regular fa-hand-point-right"></i> :
+              <a href="https://www.w3schools.com/cssref/css4_pr_accent-color.php" target="_blank">W3schools.com</a>
+              <span style="text-align: center;">-vs-</span>
+              <a href="https://www.lundevweb.com/2022/12/custom-input-voi-accent-color-trong-css.html#:~:text=Kh%C3%A1i%20ni%E1%BB%87m,thi%E1%BB%87n%20v%E1%BB%9Bi%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng%20h%C6%A1n." target="_blank">lundevweb.com</a>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Syntax</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>accent-color</td>
+                <td>accent-color : auto|color|initial|inherit;</td>
+                <td><a href="https://www.w3schools.com/cssref/css4_pr_accent-color.php#:~:text=%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">accent-color</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss4_accent-color" target="_blank">attribute accent-color</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes align-content -->
+        <div id="align-content" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>align-content</strong></h3>
+            <div class="text">
+              <p>Thuộc tính Align-content chỉ định cách phân phối các dòng flex dọc theo trục chéo trong vùng chứa flexbox.
+                Trong bố cục flexbox, trục chính nằm theo hướng flex (mặc định là 'hàng', ngang) và trục chéo vuông góc với trục 
+                chính (mặc định là 'cột', dọc). xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_align-content.php" target="_blank">W3schools.com</a></p>
+              <p><b>Tip</b>: Sử dụng thuộc tính Simply-content để căn chỉnh các mục trên trục chính (theo chiều ngang). </p>
+              <p><b>Note</b>: Thuộc tính căn chỉnh nội dung cũng có thể được sử dụng trên vùng chứa lưới để căn chỉnh các 
+                mục lưới theo hướng khối. Đối với các trang bằng tiếng Anh, hướng khối là hướng xuống và hướng nội tuyến là từ trái sang phải.
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>align-content</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_align-content.php#:~:text=evenly%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">align-content</a></td>
+                <td><a href="https://www.w3schools.com/cssref/playdemo.php?filename=playcss_align-content" target="_blank">attribute align-content</a></td>
+              </tr>
+              <tr>
+                <td colspan="1">Syntax</t>
+                <td colspan="3">align-content: stretch|center|flex-start|flex-end|space-between|space-around|space-evenly|initial|inherit;</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes align-items -->
+        <div id="align-items" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>align-items</strong></h3>
+            <div class="text">
+              <p>Thuộc align-items tính chỉ định căn chỉnh mặc định cho các mục bên trong hộp chứa flexbox hoặc lưới.</p>
+              <p>Trong vùng chứa flexbox, các mục flexbox được căn chỉnh trên trục chéo, theo mặc định là trục dọc 
+                (ngược lại với hướng flex).</p>
+              <p>Trong vùng chứa lưới, các mục lưới được căn chỉnh theo hướng khối. Đối với các trang bằng tiếng Anh, 
+                hướng khối là hướng xuống và hướng nội tuyến là từ trái sang phải.</p>
+              <p>Để thuộc tính này có bất kỳ hiệu ứng căn chỉnh nào, các mục cần có không gian sẵn có xung quanh 
+                chúng theo hướng thích hợp.</p>
+              <p><b>Tip :</b> Sử dụng thuộc tính Align-self của từng mục để ghi đè thuộc tính Align-items.</p>
+              <p>Xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_align-items.php" target="_blank">w3schoolscom</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th>Name</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>align-items</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_align-items.php#:~:text=baseline%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">align-items</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_align-items" target="_blank">attribute align-items</a></td>
+              </tr>
+              <tr style=>
+                <td colspan="1">Syntax of the attribute</td>
+                <td colspan="3">align-items: normal|stretch|positional alignment|flex-start|flex-end|baseline|initial|inherit;</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes align-self -->
+        <div id="align-self" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>align-self</strong></h3>
+            <div class="text">
+              <p>Thuộc tính Align-self chỉ định căn chỉnh theo hướng khối cho mục đã chọn bên trong hộp chứa flexbox hoặc lưới.</p>
+              <p>Đối với các trang bằng tiếng Anh, hướng khối là hướng xuống và hướng nội tuyến là từ trái sang phải.</p>
+              <p><b>Tip :</b> Để căn chỉnh một mục lưới theo hướng nội tuyến thay vì hướng khối, hãy sử dụng các thuộc tính Justify-self hoặc Justify-items.</p>
+              <p><b>Note :</b> Thuộc tính Align-self ghi đè thuộc tính Align_items của lưới hoặc vùng chứa linh hoạt.</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_align-self.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Syntax</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>align-self</td>
+                <td>align-self: auto|stretch|center|flex-start|flex-end|baseline|initial|inherit;</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_align-self.php#:~:text=baseline%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">align-self</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_align-self" target="_blank">attribute align-self</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes all -->
+        <div id="all" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>all</strong></h3>
+            <div class="text">
+              <ul>
+                <p>Thuộc tính all trong CSS sẽ đặt lại(reset) tất cả các thuộc tính khác (ngoài trừ unicode-pricei và direction) 
+                về trạng thái ban đầu hoặc trạng thái kế thừa của chúng. 
+                Nó chấp nhận các giá trị sau:</p>
+                <li>initial: thay đổi tất cả các thuộc tính của element hoặc kế thừa giá trị khởi tạo từ element cha của nó.</li>
+                <li>inherit: thay đổi tất cả các thuộc tính của element hoặc element cha của nó thành giá trị cha của chúng.</li>
+                <li>unset: thay đổi tất cả các thuộc tính của element hoặc element cha của nó thành giá trị của chúng nếu chúng 
+                có thể kế thừa hoặc thành giá trị riêng của chúng nếu không thể, gân giống như inherit vậy.</li>
+              </o>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_all.php" target="_blank">w3schools.com</a>
+                <span style="text-align: center;">-vs-</span>
+                <a href="https://viblo.asia/p/nhung-thuoc-tinh-thu-vi-trong-css-p1-OeVKBvL0KkW#:~:text=1.-,all,-Thu%E1%BB%99c%20t%C3%ADnh%20all" target="_blank">viblo.asia</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Syntax</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>all</td>
+                <td>all: initial|inherit|unset;</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_all.php#:~:text=initial%7Cinherit%7Cunset%3B-,Property%20Values,-Value" target="_blank">all</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_all" target="_blank">attribute all</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes animation -->
+        <div id="animation" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>animation</strong></h3>
+            <div class="text">
+              <p>Thuộc tính animation trong CSS có thể được sử dụng để tạo sinh động cho nhiều thuộc tính CSS khác như 
+                màu sắc, màu nền, chiều cao hoặc chiều rộng. Mỗi animation cần phải được định nghĩa bằng nguyên tắc @keyframes 
+                sau đó được gọi với thuộc tính animation
+              </p>
+              <p>Thuộc tính animation là thuộc tính viết tắt của: <em>animation-name, animation-duration, animation-timing-function, 
+                animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, animation-play-stat</em>
+                xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_animation.php" target="_blank">w3schools.com</a>
+                <span style="text-align: center;">-vs-</span>
+                <a href="https://viblo.asia/p/css-animation-1Je5EEnA5nL" target="_blank">viblo.asia</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>animation</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_animation.php#:~:text=Property%20Values-,Value,Description,-animation%2Dname" target="_blank">animation</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation" target="_blank">attribute animation</a></td>
+              </tr>
+              <tr>
+                <td colspan="1">Syntax</td>
+                <td colspan="3">animation: name duration timing-function delay iteration-count direction fill-mode play-state;</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes animation-delay -->
+        <div id="animation-delay" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>animation-delay</strong></h3>
+            <div class="text">
+              <p>Thuộc tính animation-delay chỉ định độ trễ khi bắt đầu hoạt ảnh.</p>
+              <p>Giá trị độ trễ hoạt ảnh được xác định bằng seconds (s) or milliseconds (ms)</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_animation-delay.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Syntax</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>animation-delay</td>
+                <td>animation-delay: time|initial|inherit;</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_animation-delay.php#:~:text=%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">animation-delay</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-delay" target="_blank">attribute animation-delay</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes animation-direction -->
+        <div id="animation-direction" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>animation-direction</strong></h3>
+            <div class="text">
+              <p>Thuộc tính animation-direction xác định xem một hoạt ảnh nên được phát tiến, lùi hay theo chu kỳ luân phiên.</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_animation-direction.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>animation-direction</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_animation-direction.php#:~:text=reverse%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">animation-direction</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-direction" target="_blank">animation-direction</a></td>
+              </tr>
+              <tr>
+                <td colspan="1">Syntax</td>
+                <td colspan="3">animation-direction: normal|reverse|alternate|alternate-reverse|initial|inherit;</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes animation-duration -->
+        <div id="animation-duration" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>animation-duration</strong></h3>
+            <div class="text">
+              <p>Thuộc tính animation-duration xác định khoảng thời gian để một hoạt ảnh hoàn thành một chu kỳ.</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_animation-duration.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Syntax</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>animation-duration</td>
+                <td>animation-duration: time|initial|inherit;</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_animation-duration.php#:~:text=%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">animation-duration</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-duration" target="_blank">attribute animation-duration</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes animation-fill-mode -->
+        <div id="animation-fill-mode" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>animation-fill-mode</strong></h3>
+            <div class="text">
+              <p>Thuộc tính animation-fill-mode chỉ định kiểu cho phần tử khi hoạt ảnh không phát (trước khi hoạt ảnh bắt đầu, 
+                sau khi hoạt ảnh kết thúc hoặc cả hai).</p>
+              <p>Hoạt ảnh CSS không ảnh hưởng đến phần tử trước khi khung hình chính đầu tiên được phát hoặc sau khi khung 
+                hình chính cuối cùng được phát. Thuộc tính animation-fill-mode có thể ghi đè hành vi này.</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Syntax</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>animation-fill-mode</td>
+                <td>animation-fill-mode: none|forwards|backwards|both|initial|inherit;</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.php#:~:text=both%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">animation-fill-mode</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-fill-mode" target="_blank">attribute animation-fill-mode</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes animation-iteration-count -->
+        <div id="animation-iteration-count" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>animation-iteration-count</strong></h3>
+            <div class="text">
+              <p>Thuộc tính animation-iteration-count chỉ định số lần hoạt ảnh sẽ được phát.</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>animation-iteration-count</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.php#:~:text=infinite%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">animation-iteration-count</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-iteration-count" target="_blank">attribute animation-iteration-count</a></td>
+              </tr>
+              <tr>
+                <td colspan="1">Syntax</t>
+                <td colspan="3">animation-iteration-count: number|infinite|initial|inherit;</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes animation-name -->
+        <div id="animation-name" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>animation-name</strong></h3>
+            <div class="text">
+              <p>Thuộc tính animation-name chỉ định tên cho hoạt ảnh @keyframes.</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_animation-name.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Syntax</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>animation-name</td>
+                <td>animation-name: keyframename|none|initial|inherit;</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_animation-name.php#:~:text=none%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">animation-name</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-name" target="_blank">attribute animation-name</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes animation-play-state -->
+        <div id="animation-play-state" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>animation-play-state</strong></h3>
+            <div class="text">
+              <p>Thuộc tính animation-play-state chỉ định hoạt ảnh đang chạy hay bị tạm dừng.</p>
+              <p><b>Lưu ý:</b> Sử dụng thuộc tính này trong JavaScript để tạm dừng hoạt ảnh ở giữa chu kỳ.</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_animation-play-state.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Syntax</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>animation-play-state</td>
+                <td>animation-play-state: paused|running|initial|inherit;</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_animation-play-state.php#:~:text=running%7Cinitial%7Cinherit%3B-,Property%20Values,-Value" target="_blank">animation-play-state</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-play-state" target="_blank">attribute animation-play-state</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes animation-timing-function -->
+        <div id="animation-timing-function" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>animation-timing-function</strong></h3>
+            <div class="text">
+              <p>Chức năng định giờ hoạt ảnh chỉ định đường cong tốc độ của hoạt ảnh.</p>
+              <p>Đường cong tốc độ xác định THỜI GIAN mà hoạt ảnh sử dụng để thay đổi từ bộ kiểu CSS này sang bộ kiểu CSS khác.</p>
+              <p>Đường cong tốc độ được sử dụng để thực hiện các thay đổi một cách trơn tru.</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css3_pr_animation-timing-function.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>animation-timing-function</td>
+                <td><a href="https://www.w3schools.com/cssref/css3_pr_animation-timing-function.php#:~:text=pre%2Ddefined%20values%3A-,Property%20Values,-Value" target="_blank">animation-timing-function</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-timing-function" target="_blank">attribute animation-timing-function</a></td>
+              </tr>
+              <tr>
+                <td colspan="1">Syntax</td>
+                <td colspan="3">animation-timing-function: linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|steps(int,start|end)|cubic-bezier(n,n,n,n)|initial|inherit;</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Content attributes aspect-ratio -->
+        <div id="aspect-ratio" class="contains-css">
+          <div class="infor-css separate-part"><hr>
+            <h3>Atribute <i class="fa-regular fa-hand-point-right"></i> <strong>aspect-ratio</strong></h3>
+            <div class="text">
+              <p>Thuộc tính spect_ratio cho phép bạn xác định tỷ lệ giữa chiều rộng và chiều cao của một phần tử.</p>
+              <p>Nếu các thuộc tính  tỷ lệ khung hình và chiều rộng được đặt thì chiều cao sẽ tuân theo tỷ lệ khung hình đã xác định.</p>
+              <p>Để hiểu rõ hơn về thuộc tính spect_ratio, hãy xem bản demo.</p>
+              <p>Tip: Sử dụng thuộc tính spect_ratio trong bố cục thích ứng trong đó các thành phần thường có kích thước khác nhau và bạn muốn duy trì tỷ lệ giữa chiều rộng và chiều cao.</p>
+              <p>xem thêm tại website <i class="fa-solid fa-hand-point-right"></i> : 
+                <a href="https://www.w3schools.com/cssref/css_pr_aspect-ratio.php" target="_blank">w3schools.com</a>
+              </p>
+            </div>
+            <table>
+              <tr>
+                <th class="table-style">Name</th>
+                <th>Syntax</th>
+                <th>Value attribute</th>
+                <th>Example</th>
+              </tr>
+              <tr>
+                <td>aspect-ratio</td>
+                <td>aspect-ratio: number/number|initial|inherit;</td>
+                <td><a href="https://www.w3schools.com/cssref/css_pr_aspect-ratio.php#:~:text=%7Cinitial%7Cinherit%3B-,Property%20Values,-Property%20Value" target="_blank">aspect-ratio</a></td>
+                <td><a href="https://www.w3schools.com/cssref/tryit.php?filename=trycss_aspect-ratio" target="_blank">attribute aspect-ratio</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

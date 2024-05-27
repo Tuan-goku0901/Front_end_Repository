@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* #footer {
+  height: 60px;
+  font-style: italic;
+  line-height:  60px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #c4c4c4;
+  text-align: center;
+  background-color: #000;
+} */
+/* Common Css */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+.title-language {
+  margin-top: 25px;
+}
+/* Section Header */
+#header {
+  height: 50px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* z-index: 1; */
+}
+#header .header-container {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+}
+
+#header .logo-header {
+  display: block;
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 600;
+  color: #ffa84a;
+  text-decoration: none;
+}
+#header .logo-header:hover {
+  color: #f00;
+}
+/* Content menu */
+#nav > li {
+  display: inline-block;
+  position: relative;
+}
+#nav .subnav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  list-style-type: none;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+}
+#nav li a {
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 24px;
+  display: block;
+}
+#nav > li i {
+  position: relative;
+  top: -2px;
+  font-size: 13px;
+}
+#nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+#nav > li:hover > a ,
+#nav .subnav li:hover a{
+  color: #000;
+  background-color: #ccc;
+}
+#nav .subnav a {
+  color: #000;
+  padding: 0 12px;
+  line-height: 38px;
+}
+#nav li:hover .subnav {
+  display: block;
+}
+/* Content Header search */
+#header .search-btn{
+  float: right;
+  padding: 0px 21px;
+}
+#header .search-btn i{
+  line-height: 46px;
+  font-size: 20px;
+  color: #ffff;
+  float: right;
+}
+#header .search-btn:hover{
+  cursor: pointer;
+  background-color: #f44336;
+}
+.header-serach {
+  text-align: right;
+}
+.header-serach i {
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  padding: 0px 24px;
+}
+.header-serach i:hover  {
+  cursor: pointer;
+  color: #fff;
+  background-color: #f44336;
+}
+/* Section Slide */
+#slide {
+  margin-top: 50px;
+}
+.a {
+  width: 200px;
+  height: 600px;
+  background-color: #ffa84a;
+  position: fixed;
+  top: 50px;
+  right: 0px;
+}

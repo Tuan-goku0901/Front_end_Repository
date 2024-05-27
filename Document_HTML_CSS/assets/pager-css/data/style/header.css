@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#wrap-website a {
+  text-decoration: none;
+}
+/* Css for header *****************************************************/
+#header {
+  height: 50px;
+  line-height: 50px;
+  background: linear-gradient(50.11deg, #579aff 22.36%, #2365d6 65.67%);
+  box-shadow: 0 4px 12px rgba(148,187,255,.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+#header #wrap-header {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+/* Logo in the header */
+.header-logo .title{
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 3px;
+  font-family: "Playfair Display", serif;
+  text-shadow: 1.5px 2.5px 3.5px #111;
+}
+/* Header Serach */
+.header-search {
+  position: relative;
+  align-items: center;
+}
+.header-search input {
+  width: 100%;
+  height: 37px;
+  font-size: 16.5px;
+  padding-left: 15px;
+  border-radius: 15px;
+  border: none;
+}
+.header-search input:focus {
+  outline: none;
+}
+.header-search span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.header-search span i {
+  width: 65px;
+  text-align: center;
+  font-size: 18.5px;
+  border-radius: 0px 10px 10px 0px;
+}
+.header-search span:hover i {
+  color: #f00;
+}
+/* Header Register */
+.header-register {
+  padding-right: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header-register form a{
+  padding: 8px 15px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.header-register a + a{
+  margin-left: 25px;
+}
+.header-register a:hover{
+  color: #fff;
+  background: var(--background);
+}

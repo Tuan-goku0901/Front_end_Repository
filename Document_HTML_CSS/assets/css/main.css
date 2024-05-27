@@ -1,0 +1,113 @@
+/* Section Slide */
+#slide {
+  margin-top: 50px;
+  padding-top: 50%;
+  background: url('../img/full-satck.png') top center / cover no-repeat;
+}
+
+/* Section Content main website */
+#content .section {
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0px;
+  font-size: 16px;
+}
+.section-title {
+  color: #ff8400;
+  font-size: 30px;
+  font-weight: 500px;
+  font-family: "Montserrat", sans-serif;
+}
+.title-language {
+  margin-top: 25px;
+}
+.section .sub-title {
+  color: #3500ff;
+  font-size: 17.5px;
+  margin: 5px 0px 10px;
+}
+.infor-text ul li {
+  margin-left: 20px;
+}
+.infor-text {
+  font-size: 16.5px;
+  line-height: 1.5;
+}
+.infor-text .note {
+  margin: 6px 0px 5px;
+  border-right: 5px solid #ffc107;
+  background-color: #ffeb3b36;
+}
+.infor-text .note strong{
+  color: #f00;
+  font-size: 18px;
+}
+.content-section{
+  background-color: #1111110c;
+}
+.link {
+  margin-top: 20px;
+  padding: 10px 0px;
+  background-color: #11111107;
+  border-right: 5px solid #ff000094;
+}
+.link .tag-html {
+  margin-top: 10px;
+}
+.tag-html a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  background-color: #ccc;
+  padding: 6px 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+.tag-html a:hover {
+  color: #fff;
+  background-color: #f00;
+}
+/* MySQL hoạt động như thế nào? */
+.mysql-demo {
+  margin-top: 10px;
+  display: flex;
+}
+.mysql-demo img {
+  width: 500px;
+}
+.mysql-demo ol{
+  margin-left: 25px;
+}
+.mysql-demo ol li{
+  margin-bottom: 10px;
+}
+/* Java hoạt động như thế nào? */
+.infor-text .java-text {
+  margin-top: 10px;
+}
+/* Content Footer */
+#footer {
+  height: 60px;
+  font-style: italic;
+  line-height:  60px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #c4c4c4;
+  text-align: center;
+  background-color: #000;
+}
+/* Responsive Screen */
+@media (min-width: 1920px){
+  .content-section {
+    background-color: transparent;
+  }
+  #main,#header {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #content .section {
+    width: 100% !important;
+  }
+}

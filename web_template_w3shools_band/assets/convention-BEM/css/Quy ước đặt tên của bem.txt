@@ -1,0 +1,42 @@
+1, What is bem ?
+- Là tiêu chuổn đặt tên class khi viết CSS
+
+2, Ý Nghĩa :
+  + Bem là viết tắt của  : Block , Element Modifier
+  => Trong đó :
+    - Block : là khối
+    - Element : Thành phần trong khối
+    - Modifier : Bổ sung ý nghĩa cho 'Block' or 'Element'
+
+3, Tại sao phải sử dụng BEM ?
+  - Mỗi người đặt một kiểu (trong một teem sẽ có thể tên các class sẽ đặt chùng nhau)
+  - Members đặt class trùng nhau , Css đè nên nhau
+
+4, Syntax Bem
+  <div class="block"></div>
+  <div class="block__element"></div>++
+  <div class="block--modifier"></div>
+  <div class="block__element--modifier"></div>
+
+5, Tính ứng dụng
+  - Xây dựng layout website
+  - Xây dựng thành phần trên website
+
+6, Ưu điểm
+  - Tính rõ ràng 
+  - Tái sử dụng dễ dàng
+  - Giúp cả team làm việc dễ dàng
+  - Tính module , không lo css của class này ảnh hưởng lên css của class khác
+
+7, Nhược điểm
+  - Tên class dài
+  - Tính thẩm mỹ xấu (một số cho là không đẹp)
+
+8, Khi nào dùng Bem là phù hợp
+  - Dự án nhiều Members
+  - Dự án lớn, số lượng pages nhiều hoặc số lượng các thành phần trên giao diện nhiều
+
+9, Thực hành
+  - Làm buttom
+  - Massage
+  - Làm một thành phần trên website

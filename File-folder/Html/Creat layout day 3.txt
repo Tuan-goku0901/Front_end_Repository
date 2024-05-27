@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/fontawesome-6.5.1-web/css/all.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Part general Css */
+    html {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #main-container {
+      width: 100%;
+    }
+    .display-type {
+      display: grid;
+    }
+    #container .display-type {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      line-height: 60px;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    
+    /* Css for header website */
+    #header {
+      height: 60px;
+      background: linear-gradient(50.11deg, #579aff 22.36%, #2365d6 65.67%);
+      box-shadow: 0 4px 12px rgba(148,187,255,.4);
+    }
+    #container {
+      grid-template-columns: 20% 60% 20%;
+    }
+    /* Logo in the header */
+    .logo-header .title-logo{
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+      font-style: italic;
+      color: #f00;
+      font-size: 33.5px;
+      letter-spacing: 3px;
+      text-align: center;
+      line-height: 50px;
+      text-shadow: 1.5px 2.5px 3.5px #111;
+    }
+    /* Theme in the header */
+    .title-header{
+      text-align: center;
+    }
+    .title-header a{
+      font-size: 18.5px;
+      padding: 8px 12px;
+    }
+    .title-header a:hover {
+      color: #fff;
+      background-color: #f7af24;
+      border-radius: 16px;
+    }
+    /* register and login in the header */
+    #container .box-header {
+      display: flex;
+      line-height: 60px;
+      justify-content: center;
+    }
+    .box-header .register {
+      margin-right: 35px;
+    }
+    .box-header a{
+      font-weight: 500;
+      color: #000;
+      font-size: 17px;
+      background-color: #cdcdcda8;
+      padding: 8.5px 20px;
+      border-radius: 6px;
+    }
+    .box-header a:hover{
+      color: #fff;
+      background: var(--type-background);
+    }
+    
+    
+    /* Css section for navigation (menu) */
+    #navigation {
+      position: fixed;
+      top: 60px;
+      left: 0;
+      width: 300px;
+      height: 100%;
+      padding: 10px 10px 0px;
+      background-color: #1111;
+    }
+    #from-serach label{
+      background-color: #fff;
+    }
+    #from-serach label button {
+      width: 100%;
+      height: 30px;
+      border: #fff;
+      border-radius: 10px;
+      border: 1px solid #1111;
+      display: grid;
+      grid-template-columns: 20% 80%;
+    }
+    #from-serach button i {
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: bold;
+      color: #000;
+      display: inline-block;
+      background-color: #fff;
+      border-radius: 0px 10px 10px 0px;
+    }
+    #from-serach button i:hover {
+      color: #fff;
+      background-color: #f00;
+    }
+    #from-serach label input {
+      font-size: 16px;
+      height: 30px;
+      border-radius: 0px 10px 10px 0px;
+      border: 1px solid #fff;
+    }
+    /* code language */
+    #languages-progarmming {
+      margin-top: 15px;
+      height: var(1000px - 100px);
+      overflow-y: auto;
+    }
+    #languages-progarmming img {
+      display: block;
+      width: 100%;
+      border-radius: 6px;
+      padding: 0px 16px;
+    }
+    #languages-progarmming img:hover {
+      opacity: 0.8;
+    }
+    /* Css for main content of website */
+    #content {
+      margin-top: 100px;
+      margin-left: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div id="main-container">
+    <!-- Section header -->
+    <div id="header">
+      <div id="container" class="display-type">
+        <!-- Logo -->
+        <div class="logo-header">
+          <h2 class="title-logo">Website Design</h2>
+        </div>
+
+        <!-- theme header -->
+        <div class="title-header display-type" style="background-color: #1111;">
+          <div class="frontend">
+            <a href="" class="title">FronEnd Developers</a>
+          </div>
+          <div class="backend">
+            <a href="" class="title">Backend Developers</a>
+          </div>
+          <div class="fullftack">
+            <a href="" class="title">FullTack Developers</a>
+          </div>
+        </div>
+
+        <!-- form register and log out-->
+        <div class="box-header">
+          <!-- log in -->
+          <div class="register">
+            <a href="" style="--type-background: #ff3f00;">Đăng Nhập</a>
+          </div>
+          <!-- log out -->
+          <div class="log-out">
+            <a href="" style="--type-background: #111;">Đăng Xuất</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buil content of navigation websites -->
+    <div id="navigation">
+      <!-- Form serach -->
+      <div id="from-serach">
+        <!-- NOTE : form serach chứa ok -> học thêm để hoàn thiện -->
+        <label for="">
+          <button type="button">
+            <i class="fa-brands fa-sistrix fa-flip-horizontal"></i>
+            <input type="text" placeholder="serach ...">
+          </button>
+        </label>
+      </div>
+      <!-- code language -->
+      <div id="languages-progarmming">
+        <!-- Content front-end -->
+        <div id="front-end">
+          <div class="html">
+            <img src="./assets/img/Html.jpg" alt="images html">
+            <a href="">Html Languages</a>
+          </div>
+          <div class="css">
+            <img src="./assets/img/Css.jpg" alt="images css">
+            <a href="">Css Properties</a>
+          </div>
+          <div class="javascript">
+            <img src="./assets/img/javascript.jpg" alt="images javascript">
+            <a href="">JavaScript Languages</a>
+          </div>
+        </div>
+
+        <!-- Content back-end -->
+        <div id="back-end">
+          <div class="Java">
+            <img src="./assets/img/java.jpg" alt="images java">
+            <a href="">JAVA Languages</a>
+          </div>
+          <div class="database-mysql">
+            <img src="./assets/img/mysql.jpg" alt="images mysql">
+            <a href="">MySQL Database</a>
+          </div>
+          <div class="react-js">
+            <img src="./assets/img/react-js.jpg" alt="images react-js">
+            <a href="">React </a>
+          </div>
+        </div>
+
+        <!-- Content full-tack -->
+        <div id="funll-stack"></div>
+      </div>
+    </div>
+
+    <!-- Build main content website -->
+    <div id="content">
+      <h2 style="margin-top: 1000px;">sdfkgjdjfghlkje</h2>
+    </div>
+  </div>
+</body>
+</html

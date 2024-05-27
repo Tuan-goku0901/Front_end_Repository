@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Common Css */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+/* Section Header */
+#header {
+  height: 50px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+#header .header-container {
+  display: grid;
+  grid-template-columns: 20% auto 10%;
+}
+
+#header .logo-header {
+  display: block;
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+#header .logo-header:hover {
+  color: #ffa84a;
+}
+/* Content menu */
+#nav > li {
+  display: inline-block;
+  position: relative;
+}
+#nav .subnav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 180px;
+  list-style-type: none;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+}
+#nav li a {
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 24px;
+  display: block;
+}
+#nav > li i {
+  position: relative;
+  top: -2px;
+  font-size: 13px;
+}
+#nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+#nav > li:hover > a ,
+#nav .subnav li:hover a{
+  color: #000;
+  background-color: #ccc;
+}
+#nav .subnav a {
+  color: #000;
+  padding: 0 12px;
+  line-height: 38px;
+}
+#nav li:hover .subnav {
+  display: block;
+}
+/* Tag liên kết in content menu */
+.category--container .contais {
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin: 0 10px;
+  align-items: center;
+}
+.category--container::after {
+  content: "";
+  display: block;
+  margin: 6px 10px;
+  border-bottom: 2px solid #1111;
+}
+.category--container .contais a {
+  display: block !important;
+  margin-top: 0px;
+  font-size: 16px !important;
+  text-align: center;
+}
+.category--container .contais a:hover {
+  animation: button_house ease-in 0.3s;
+}
+@keyframes button_house {
+  from {
+    opacity: 1;
+    transform: translateX(25px);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(0px);
+  }
+}
+.category__link h3{
+  font-size: 1.2em;
+}
+.category__link {
+  padding: 10px 12px 10px;
+  font-size: 15px;
+}
+.category__link a{
+  margin-top: 6px;
+  border-radius: 10px;
+}
+.category__link a:hover {
+  color: #fff !important;
+  background-color: #00a527;
+}
+/* Content Header search */
+#header .search-btn{
+  float: right;
+  padding: 0px 21px;
+}
+#header .search-btn i{
+  line-height: 46px;
+  font-size: 20px;
+  color: #ffff;
+  float: right;
+}
+#header .search-btn:hover{
+  cursor: pointer;
+  background-color: #f44336;
+}
+.header-serach {
+  text-align: right;
+}
+.header-serach i {
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  padding: 0px 24px;
+}
+.header-serach i:hover  {
+  cursor: pointer;
+  color: #fff;
+  background-color: #f44336;
+}

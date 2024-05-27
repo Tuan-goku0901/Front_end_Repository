@@ -1,0 +1,107 @@
+/* Content page main website */
+#main-content {
+  margin-top: 50px;
+  margin-left: 260px;
+}
+/* title main content */
+.main-title {
+  text-align: center;
+  padding: 15px 0px 30px;
+}
+.main-title h2{
+  color: #ff0000;
+  text-shadow: 0px 0px 2px #1111;
+}
+/* Section Content tag Basic html */
+.content__html {
+  font-size: 16.5px;
+}
+:target {
+  background-color: #7878784d;
+}
+.content__html .heading {
+  font-size: 25px;
+  color: #fff;
+  border-radius: 3px;
+  background: linear-gradient(50.11deg, #ff5e00 22.36%, #feceb2 65.67%);;
+}
+.content__html .abont-text{
+  padding: 6px 10px;
+  border-radius: 10px;
+  line-height: 1.599;
+  position: relative;
+}
+/* .content__html .abont-text + .abont-text{
+  margin-top: 15px;
+} */
+.abont-text:first-of-type {
+  margin-top: 15px;
+}
+.abont-text .note::first-line {
+  color: #0055ff;
+  font-weight: bold;
+}
+.abont-text ul {
+  margin-left: 30px;
+  font-size: 15.5px;
+}
+.abont-text ul li::marker {
+  font-size: 16px;
+}
+/* Img css mặc định tag ˂h1˃, ˂h2˃, ˂h3˃, ˂h3˃, ˂h5˃, ˂h6˃ */
+.css-default img {
+  display: block;
+  width: 30%;
+  height: 230px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid #1111;
+}
+.css-default .css--heading {
+  display: flex;
+  justify-content: space-around;
+}
+.css-default img:hover {
+  opacity: 0.8;
+}
+/* Content tag <hr> dash (dấu gạch ngang)*/
+.dash {
+  margin: 25px 0px;
+  border: 1px solid #1111;
+}
+/* Section Content tag formatting html */
+.content__html~.content__html {
+  margin-top: 100px;
+}
+/* Css for tag <a> of content basic-html and formatting */
+.address-element {
+  padding: 15px 0px 5px;
+  font-size: 15px;
+}
+.content__html .address-element a{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 2px 8px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.content__html .address-element a:hover {
+  color: #fff;
+  background-color: #0055ff;
+  animation: mosuse ease-in .3s;
+}
+@keyframes mosuse {
+  from {
+    opacity: 0.6;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(0);
+  }
+}

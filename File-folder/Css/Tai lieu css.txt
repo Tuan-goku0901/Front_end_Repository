@@ -1,0 +1,833 @@
+<div class="A">
+  Atribute-Css &#706;accent-color>&#707;
+  Atribute-Css &#706;align-content>&#707;
+  Atribute-Css &#706;align-items>&#707;
+  Atribute-Css &#706;align-self>&#707;
+  Atribute-Css &#706;all>&#707;
+  Atribute-Css &#706;animation>&#707;
+  Atribute-Css &#706;animation-delay>&#707;
+  Atribute-Css &#706;animation-direction>&#707;
+  Atribute-Css &#706;animation-duration>&#707;
+  Atribute-Css &#706;animation-fill-mode>&#707;
+  Atribute-Css &#706;animation-iteration-count>&#707;
+  Atribute-Css &#706;animation-name>&#707;
+  Atribute-Css &#706;animation-play-state>&#707;
+  Atribute-Css &#706;animation-timing-function>&#707;
+  Atribute-Css &#706;aspect-ratio>&#707;
+</div>
+
+<div class="B">
+  Atribute-Css &#706;backdrop-filter&#707;
+  Atribute-Css &#706;backface-visibility&#707;
+  Atribute-Css &#706;background&#707;
+  Atribute-Css &#706;background-attachment&#707;
+  Atribute-Css &#706;background-blend-mode&#707;
+  Atribute-Css &#706;background-clip&#707;
+  Atribute-Css &#706;background-color&#707;
+  Atribute-Css &#706;background-image&#707;
+  Atribute-Css &#706;background-origin&#707;
+  Atribute-Css &#706;background-position&#707;
+  Atribute-Css &#706;background-position-x&#707;
+  Atribute-Css &#706;background-position-y&#707;
+  Atribute-Css &#706;background-repeat&#707;
+  Atribute-Css &#706;background-size&#707;
+  Atribute-Css &#706;block-size&#707;
+  Atribute-Css &#706;border&#707;
+  Atribute-Css &#706;border-block&#707;
+  Atribute-Css &#706;border-block-color&#707;
+  Atribute-Css &#706;border-block-end&#707;
+  Atribute-Css &#706;border-block-end-color&#707;
+  Atribute-Css &#706;border-block-end-style&#707;
+  Atribute-Css &#706;border-block-end-width&#707;
+  Atribute-Css &#706;border-block-start&#707;
+  Atribute-Css &#706;border-block-start-color&#707;
+  Atribute-Css &#706;border-block-start-style&#707;
+  Atribute-Css &#706;border-block-start-width&#707;
+  Atribute-Css &#706;border-block-style&#707;
+  Atribute-Css &#706;border-block-width&#707;
+  Atribute-Css &#706;border-bottom&#707;
+  Atribute-Css &#706;border-bottom-color&#707;
+  Atribute-Css &#706;border-bottom-left-radius&#707;
+  Atribute-Css &#706;border-bottom-right-radius&#707;
+  Atribute-Css &#706;border-bottom-style&#707;
+  Atribute-Css &#706;border-bottom-width&#707;
+  Atribute-Css &#706;border-collapse&#707;
+  Atribute-Css &#706;border-color&#707;
+  Atribute-Css &#706;border-end-end-radius&#707;
+  Atribute-Css &#706;border-end-start-radius&#707;
+  Atribute-Css &#706;border-image&#707;
+  Atribute-Css &#706;border-image-outset&#707;
+  Atribute-Css &#706;border-image-repeat&#707;
+  Atribute-Css &#706;border-image-slice&#707;
+  Atribute-Css &#706;border-image-source&#707;
+  Atribute-Css &#706;border-image-width&#707;
+  Atribute-Css &#706;border-inline&#707;
+  Atribute-Css &#706;border-inline-color&#707;
+  Atribute-Css &#706;border-inline-end&#707;
+  Atribute-Css &#706;border-inline-end-color&#707;
+  Atribute-Css &#706;border-inline-end-style&#707;
+  Atribute-Css &#706;border-inline-end-width&#707;
+  Atribute-Css &#706;border-inline-start&#707;
+  Atribute-Css &#706;border-inline-start-color&#707;
+  Atribute-Css &#706;border-inline-start-style&#707;
+  Atribute-Css &#706;border-inline-start-width&#707;
+  Atribute-Css &#706;border-inline-style&#707;
+  Atribute-Css &#706;border-inline-width&#707;
+  Atribute-Css &#706;border-left&#707;
+  Atribute-Css &#706;border-left-color&#707;
+  Atribute-Css &#706;border-left-style&#707;
+  Atribute-Css &#706;border-left-width&#707;
+  Atribute-Css &#706;border-radius&#707;
+  Atribute-Css &#706;border-right&#707;
+  Atribute-Css &#706;border-right-color&#707;
+  Atribute-Css &#706;border-right-style&#707;
+  Atribute-Css &#706;border-right-width&#707;
+  Atribute-Css &#706;border-spacing&#707;
+  Atribute-Css &#706;border-start-end-radius&#707;
+  Atribute-Css &#706;border-start-start-radius&#707;
+  Atribute-Css &#706;border-style&#707;
+  Atribute-Css &#706;border-top&#707;
+  Atribute-Css &#706;border-top-color&#707;
+  Atribute-Css &#706;border-top-left-radius&#707;
+  Atribute-Css &#706;border-top-right-radius&#707;
+  Atribute-Css &#706;border-top-style&#707;
+  Atribute-Css &#706;border-top-width&#707;
+  Atribute-Css &#706;border-width&#707;
+  Atribute-Css &#706;bottom&#707;
+  Atribute-Css &#706;box-decoration-break&#707;
+  Atribute-Css &#706;box-reflect&#707;
+  Atribute-Css &#706;box-shadow&#707;
+  Atribute-Css &#706;box-sizing&#707;
+  Atribute-Css &#706;break-after&#707;
+  Atribute-Css &#706;break-before&#707;
+  Atribute-Css &#706;break-inside&#707;
+</div>
+
+<div class="C">
+  Atribute-Css &#706;caption-side>&#707;
+  Atribute-Css &#706;caret-color>&#707;
+  Atribute-Css &#706;@charset>&#707;
+  Atribute-Css &#706;clear>&#707;
+  Atribute-Css &#706;clip>&#707;
+  Atribute-Css &#706;clip-path>&#707;
+  Atribute-Css &#706;color>&#707;
+  Atribute-Css &#706;column-count>&#707;
+  Atribute-Css &#706;column-fill>&#707;
+  Atribute-Css &#706;column-gap>&#707;
+  Atribute-Css &#706;column-rule>&#707;
+  Atribute-Css &#706;column-rule-color>&#707;
+  Atribute-Css &#706;column-rule-style>&#707;
+  Atribute-Css &#706;column-rule-width>&#707;
+  Atribute-Css &#706;column-span>&#707;
+  Atribute-Css &#706;column-width>&#707;
+  Atribute-Css &#706;columns>&#707;
+  Atribute-Css &#706;content>&#707;
+  Atribute-Css &#706;counter-increment>&#707;
+  Atribute-Css &#706;counter-reset>&#707;
+  Atribute-Css &#706;counter-set>&#707;
+  Atribute-Css &#706;cursor>&#707;
+</div>
+
+D <!--====================================-->
+  Atribute-Css &#706;direction>&#707;
+  Atribute-Css &#706;display>&#707;
+
+E <!--====================================-->
+  Atribute-Css &#706;empty-cells>&#707;
+
+<div class="F">
+  Atribute-Css &#706;filter>&#707;
+  Atribute-Css &#706;flex>&#707;
+  Atribute-Css &#706;flex-basis>&#707;
+  Atribute-Css &#706;flex-direction>&#707;
+  Atribute-Css &#706;flex-flow>&#707;
+  Atribute-Css &#706;flex-grow>&#707;
+  Atribute-Css &#706;flex-shrink>&#707;
+  Atribute-Css &#706;flex-wrap>&#707;
+  Atribute-Css &#706;float>&#707;
+  Atribute-Css &#706;font>&#707;
+  Atribute-Css &#706;@font-face>&#707;
+  Atribute-Css &#706;font-family>&#707;
+  Atribute-Css &#706;font-feature-settings>&#707;
+  Atribute-Css &#706;@font-feature-values>&#707;
+  Atribute-Css &#706;font-kerning>&#707;
+  Atribute-Css &#706;font-language-override>&#707;
+  Atribute-Css &#706;font-size>&#707;
+  Atribute-Css &#706;font-size-adjust>&#707;
+  Atribute-Css &#706;font-stretch>&#707;
+  Atribute-Css &#706;font-style>&#707;
+  Atribute-Css &#706;font-synthesis>&#707;
+  Atribute-Css &#706;font-variant>&#707;
+  Atribute-Css &#706;font-variant-alternates>&#707;
+  Atribute-Css &#706;font-variant-caps>&#707;
+  Atribute-Css &#706;font-variant-east-asian>&#707;
+  Atribute-Css &#706;font-variant-ligatures>&#707;
+  Atribute-Css &#706;font-variant-numeric>&#707;
+  Atribute-Css &#706;font-variant-position>&#707;
+  Atribute-Css &#706;font-weight>&#707;
+</div>
+
+<div class="G">
+  Atribute-Css &#706;gap>&#707;
+  Atribute-Css &#706;grid>&#707;
+  Atribute-Css &#706;grid-area>&#707;
+  Atribute-Css &#706;grid-auto-columns>&#707;
+  Atribute-Css &#706;grid-auto-flow>&#707;
+  Atribute-Css &#706;grid-auto-rows>&#707;
+  Atribute-Css &#706;grid-column>&#707;
+  Atribute-Css &#706;grid-column-end>&#707;
+  Atribute-Css &#706;grid-column-gap>&#707;
+  Atribute-Css &#706;grid-column-start>&#707;
+  Atribute-Css &#706;grid-gap>&#707;
+  Atribute-Css &#706;grid-row>&#707;
+  Atribute-Css &#706;grid-row-end>&#707;
+  Atribute-Css &#706;grid-row-gap>&#707;
+  Atribute-Css &#706;grid-row-start>&#707;
+  Atribute-Css &#706;grid-template>&#707;
+  Atribute-Css &#706;grid-template-areas>&#707;
+  Atribute-Css &#706;grid-template-columns>&#707;
+  Atribute-Css &#706;grid-template-rows>&#707;
+</div>
+
+H <!--====================================-->
+  Atribute-Css &#706;hanging-punctuation>&#707;
+  Atribute-Css &#706;height>&#707;
+  Atribute-Css &#706;hyphens>&#707;
+  Atribute-Css &#706;hyphenate-character>&#707;
+
+<div class="I">
+  Atribute-Css &#706;image-rendering>&#707;
+  Atribute-Css &#706;@import>&#707;
+  Atribute-Css &#706;inline-size>&#707;
+  Atribute-Css &#706;inset>&#707;
+  Atribute-Css &#706;inset-block>&#707;
+  Atribute-Css &#706;inset-block-end>&#707;
+  Atribute-Css &#706;inset-block-start>&#707;
+  Atribute-Css &#706;inset-inline>&#707;
+  Atribute-Css &#706;inset-inline-end>&#707;
+  Atribute-Css &#706;inset-inline-start>&#707;
+  Atribute-Css &#706;isolation>&#707;
+</div>
+
+J <!--====================================-->
+  Atribute-Css &#706;justify-content>&#707;
+  Atribute-Css &#706;justify-items>&#707;
+  Atribute-Css &#706;justify-self>&#707;
+
+K <!--====================================-->
+  Atribute-Css &#706;@keyframes>&#707;
+
+<div class="L">
+  Atribute-Css &#706;left>&#707;
+  Atribute-Css &#706;letter-spacing>&#707;
+  Atribute-Css &#706;line-break>&#707;
+  Atribute-Css &#706;line-height>&#707;
+  Atribute-Css &#706;list-style>&#707;
+  Atribute-Css &#706;list-style-image>&#707;
+  Atribute-Css &#706;list-style-position>&#707;
+  Atribute-Css &#706;list-style-type>&#707;
+</div>
+
+<div class="M">
+  Atribute-Css &#706;margin>&#707;
+  Atribute-Css &#706;margin-block>&#707;
+  Atribute-Css &#706;margin-block-end>&#707;
+  Atribute-Css &#706;margin-block-start>&#707;
+  Atribute-Css &#706;margin-bottom>&#707;
+  Atribute-Css &#706;margin-inline>&#707;
+  Atribute-Css &#706;margin-inline-end>&#707;
+  Atribute-Css &#706;margin-inline-start>&#707;
+  Atribute-Css &#706;margin-left>&#707;
+  Atribute-Css &#706;margin-right>&#707;
+  Atribute-Css &#706;margin-top>&#707;
+  Atribute-Css &#706;mask>&#707;
+  Atribute-Css &#706;mask-clip>&#707;
+  Atribute-Css &#706;mask-composite>&#707;
+  Atribute-Css &#706;mask-image>&#707;
+  Atribute-Css &#706;mask-mode>&#707;
+  Atribute-Css &#706;mask-origin>&#707;
+  Atribute-Css &#706;mask-position>&#707;
+  Atribute-Css &#706;mask-repeat>&#707;
+  Atribute-Css &#706;mask-size>&#707;
+  Atribute-Css &#706;mask-type>&#707;
+  Atribute-Css &#706;max-block-size>&#707;
+  Atribute-Css &#706;max-height>&#707;
+  Atribute-Css &#706;max-inline-size>&#707;
+  Atribute-Css &#706;max-width>&#707;
+  Atribute-Css &#706;@media>&#707;
+  Atribute-Css &#706;min-block-size>&#707;
+  Atribute-Css &#706;min-inline-size>&#707;
+  Atribute-Css &#706;min-height>&#707;
+  Atribute-Css &#706;min-width>&#707;
+  Atribute-Css &#706;mix-blend-mode>&#707;
+</div>
+
+N <!--====================================-->
+Atribute-Css &#706;@namespace>&#707;
+
+<div class="O">
+  Atribute-Css &#706;object-fit>&#707;
+  Atribute-Css &#706;object-position>&#707;
+  Atribute-Css &#706;offset>&#707;
+  Atribute-Css &#706;offset-anchor>&#707;
+  Atribute-Css &#706;offset-distance>&#707;
+  Atribute-Css &#706;offset-path>&#707;
+  Atribute-Css &#706;offset-position>&#707;
+  Atribute-Css &#706;offset-rotate>&#707;
+  Atribute-Css &#706;opacity>&#707;
+  Atribute-Css &#706;order>&#707;
+  Atribute-Css &#706;orphans>&#707;
+  Atribute-Css &#706;outline>&#707;
+  Atribute-Css &#706;outline-color>&#707;
+  Atribute-Css &#706;outline-offset>&#707;
+  Atribute-Css &#706;outline-style>&#707;
+  Atribute-Css &#706;outline-width>&#707;
+  Atribute-Css &#706;overflow>&#707;
+  Atribute-Css &#706;overflow-anchor>&#707;
+  Atribute-Css &#706;overflow-wrap>&#707;
+  Atribute-Css &#706;overflow-x>&#707;
+  Atribute-Css &#706;overflow-y>&#707;
+  Atribute-Css &#706;overscroll-behavior>&#707;
+  Atribute-Css &#706;overscroll-behavior-block>&#707;
+  Atribute-Css &#706;overscroll-behavior-inline>&#707;
+  Atribute-Css &#706;overscroll-behavior-x>&#707;
+  Atribute-Css &#706;overscroll-behavior-y>&#707;
+</div>
+
+<div class="P">
+  Atribute-Css &#706;padding>&#707;
+  Atribute-Css &#706;padding-block>&#707;
+  Atribute-Css &#706;padding-block-end>&#707;
+  Atribute-Css &#706;padding-block-start>&#707;
+  Atribute-Css &#706;padding-bottom>&#707;
+  Atribute-Css &#706;padding-inline>&#707;
+  Atribute-Css &#706;padding-inline-end>&#707;
+  Atribute-Css &#706;padding-inline-start>&#707;
+  Atribute-Css &#706;padding-left>&#707;
+  Atribute-Css &#706;padding-right>&#707;
+  Atribute-Css &#706;padding-top>&#707;
+  Atribute-Css &#706;@page>&#707;
+  Atribute-Css &#706;page-break-after>&#707;
+  Atribute-Css &#706;page-break-before>&#707;
+  Atribute-Css &#706;page-break-inside>&#707;
+  Atribute-Css &#706;paint-order>&#707;
+  Atribute-Css &#706;perspective>&#707;
+  Atribute-Css &#706;perspective-origin>&#707;
+  Atribute-Css &#706;place-content>&#707;
+  Atribute-Css &#706;place-items>&#707;
+  Atribute-Css &#706;place-self>&#707;
+  Atribute-Css &#706;pointer-events>&#707;
+  Atribute-Css &#706;position>&#707;
+</div>
+
+Q <!--====================================-->
+  Atribute-Css &#706;quotes>&#707;
+
+R <!--====================================-->
+  Atribute-Css &#706;resize>&#707;
+  Atribute-Css &#706;right>&#707;
+  Atribute-Css &#706;rotate>&#707;
+  Atribute-Css &#706;row-gap>&#707;
+
+<div class="S">
+  Atribute-Css &#706;scale>&#707;
+  Atribute-Css &#706;scroll-behavior>&#707;
+  Atribute-Css &#706;scroll-margin>&#707;
+  Atribute-Css &#706;scroll-margin-block>&#707;
+  Atribute-Css &#706;scroll-margin-block-end>&#707;
+  Atribute-Css &#706;scroll-margin-block-start>&#707;
+  Atribute-Css &#706;scroll-margin-bottom>&#707;
+  Atribute-Css &#706;scroll-margin-inline>&#707;
+  Atribute-Css &#706;scroll-margin-inline-end>&#707;
+  Atribute-Css &#706;scroll-margin-inline-start>&#707;
+  Atribute-Css &#706;scroll-margin-left>&#707;
+  Atribute-Css &#706;scroll-margin-right>&#707;
+  Atribute-Css &#706;scroll-margin-top>&#707;
+  Atribute-Css &#706;scroll-padding>&#707;
+  Atribute-Css &#706;scroll-padding-block>&#707;
+  Atribute-Css &#706;scroll-padding-block-end>&#707;
+  Atribute-Css &#706;scroll-padding-block-start>&#707;
+  Atribute-Css &#706;scroll-padding-bottom>&#707;
+  Atribute-Css &#706;scroll-padding-inline>&#707;
+  Atribute-Css &#706;scroll-padding-inline-end>&#707;
+  Atribute-Css &#706;scroll-padding-inline-start>&#707;
+  Atribute-Css &#706;scroll-padding-left>&#707;
+  Atribute-Css &#706;scroll-padding-right>&#707;
+  Atribute-Css &#706;scroll-padding-top>&#707;
+  Atribute-Css &#706;scroll-snap-align>&#707;
+  Atribute-Css &#706;scroll-snap-stop>&#707;
+  Atribute-Css &#706;scroll-snap-type>&#707;
+  Atribute-Css &#706;shape-image-threshold>&#707;
+  Atribute-Css &#706;shape-margin>&#707;
+  Atribute-Css &#706;@supports>&#707;
+</div>
+
+<div class="T">
+  Atribute-Css &#706;tab-size>&#707;
+  Atribute-Css &#706;table-layout>&#707;
+  Atribute-Css &#706;text-align>&#707;
+  Atribute-Css &#706;text-align-last>&#707;
+  Atribute-Css &#706;text-combine-upright>&#707;
+  Atribute-Css &#706;text-decoration>&#707;
+  Atribute-Css &#706;text-decoration-color>&#707;
+  Atribute-Css &#706;text-decoration-line>&#707;
+  Atribute-Css &#706;text-decoration-style>&#707;
+  Atribute-Css &#706;text-decoration-thickness>&#707;
+  Atribute-Css &#706;text-emphasis>&#707;
+  Atribute-Css &#706;text-emphasis-color>&#707;
+  Atribute-Css &#706;text-emphasis-position>&#707;
+  Atribute-Css &#706;text-emphasis-style>&#707;
+  Atribute-Css &#706;text-indent>&#707;
+  Atribute-Css &#706;text-justify>&#707;
+  Atribute-Css &#706;text-orientation>&#707;
+  Atribute-Css &#706;text-overflow>&#707;
+  Atribute-Css &#706;text-shadow>&#707;
+  Atribute-Css &#706;text-transform>&#707;
+  Atribute-Css &#706;text-underline-offset>&#707;
+  Atribute-Css &#706;text-underline-position>&#707;
+  Atribute-Css &#706;top>&#707;
+  Atribute-Css &#706;touch-action>&#707;
+  Atribute-Css &#706;transform>&#707;
+  Atribute-Css &#706;transform-origin>&#707;
+  Atribute-Css &#706;transform-style>&#707;
+  Atribute-Css &#706;transition>&#707;
+  Atribute-Css &#706;transition-delay>&#707;
+  Atribute-Css &#706;transition-duration>&#707;
+  Atribute-Css &#706;transition-property>&#707;
+  Atribute-Css &#706;transition-timing-function>&#707;
+  Atribute-Css &#706;translate>&#707;
+</div>
+
+U <!--====================================-->
+  Atribute-Css &#706;unicode-bidi>&#707;
+  Atribute-Css &#706;user-select>&#707;
+
+V <!--====================================-->
+  Atribute-Css &#706;vertical-align>&#707;
+  Atribute-Css &#706;@viewport>&#707;
+  Atribute-Css &#706;visibility>&#707;
+
+W <!--====================================-->
+  Atribute-Css &#706;white-space>&#707;
+  Atribute-Css &#706;widows>&#707;
+  Atribute-Css &#706;width>&#707;
+  Atribute-Css &#706;will-change>&#707;
+  Atribute-Css &#706;word-break>&#707;
+  Atribute-Css &#706;word-spacing>&#707;
+  Atribute-Css &#706;word-wrap>&#707;
+  Atribute-Css &#706;writing-mode>&#707;
+
+Z <!--====================================-->
+  Atribute-Css &#706;z-index>&#707;
+
+
+
+==================================================================Phan Link Css properties================================================================
+<h2>A</h2>
+<a href="https://www.w3schools.com/cssref/css4_pr_accent-color.php" target="_blank">accent-color</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_align-content.php" target="_blank">align-content</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_align-items.php" target="_blank">align-items</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_align-self.php" target="_blank">align-self</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_all.php" target="_blank">all</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation.php" target="_blank">animation</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation-delay.php" target="_blank">animation-delay</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation-direction.php" target="_blank">animation-direction</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation-duration.php" target="_blank">animation-duration</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.php" target="_blank">animation-fill-mode</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.php" target="_blank">animation-iteration-count</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation-name.php" target="_blank">animation-name</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation-play-state.php" target="_blank">animation-play-state</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation-timing-function.php" target="_blank">animation-timing-function</a>
+<a href="https://www.w3schools.com/cssref/css_pr_aspect-ratio.php" target="_blank">aspect-ratio</a>
+
+
+<h2>B</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php" target="_blank">backdrop-filter</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_backface-visibility.php" target="_blank">backface-visibility</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_background.php" target="_blank">background</a>
+<a href="https://www.w3schools.com/cssref/pr_background-attachment.php" target="_blank">background-attachment</a>
+<a href="https://www.w3schools.com/cssref/pr_background-blend-mode.php" target="_blank">background-blend-mode</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_background-clip.php" target="_blank">background-clip</a>
+<a href="https://www.w3schools.com/cssref/pr_background-color.php" target="_blank">background-color</a>
+<a href="https://www.w3schools.com/cssref/pr_background-image.php" target="_blank">background-image</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_background-origin.php" target="_blank">background-origin</a>
+<a href="https://www.w3schools.com/cssref/pr_background-position.php" target="_blank">background-position</a>
+<a href="https://www.w3schools.com/cssref/css_pr_background-position-x.php" target="_blank">background-position-x</a>
+<a href="https://www.w3schools.com/cssref/css_pr_background-position-y.php" target="_blank">background-position-y</a>
+<a href="https://www.w3schools.com/cssref/pr_background-repeat.php" target="_blank">background-repeat</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_background-size.php" target="_blank">background-size</a>
+<a href="https://www.w3schools.com/cssref/css_pr_block-size.php" target="_blank">block-size</a>
+<a href="https://www.w3schools.com/cssref/pr_border.php" target="_blank">border</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block.php" target="_blank">border-block</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-color.php" target="_blank">border-block-color</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-end.php" target="_blank">border-block-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-end-color.php" target="_blank">border-block-end-color</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-end-style.php" target="_blank">border-block-end-style</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-end-width.php" target="_blank">border-block-end-width</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-start.php" target="_blank">border-block-start</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-start-color.php" target="_blank">border-block-start-color</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-start-style.php" target="_blank">border-block-start-style</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-start-width.php" target="_blank">border-block-start-width</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-style.php" target="_blank">border-block-style</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-block-width.php" target="_blank">border-block-width</a>
+<a href="https://www.w3schools.com/cssref/pr_border-bottom.php" target="_blank">border-bottom</a>
+<a href="https://www.w3schools.com/cssref/pr_border-bottom_color.php" target="_blank">border-bottom-color</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.php" target="_blank">border-bottom-left-radius</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.php" target="_blank">border-bottom-right-radius</a>
+<a href="https://www.w3schools.com/cssref/pr_border-bottom_style.php" target="_blank">border-bottom-style</a>
+<a href="https://www.w3schools.com/cssref/pr_border-bottom_width.php" target="_blank">border-bottom-width</a>
+<a href="https://www.w3schools.com/cssref/pr_border-collapse.php" target="_blank">border-collapse</a>
+<a href="https://www.w3schools.com/cssref/pr_border-color.php" target="_blank">border-color</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-end-end-radius.php" target="_blank">border-end-end-radius</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-end-start-radius.php" target="_blank">border-end-start-radius</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-image.php" target="_blank">border-image</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-image-outset.php" target="_blank">border-image-outset</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-image-repeat.php" target="_blank">border-image-repeat</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-image-slice.php" target="_blank">border-image-slice</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-image-source.php" target="_blank">border-image-source</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-image-width.php" target="_blank">border-image-width</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline.php" target="_blank">border-inline</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-color.php" target="_blank">border-inline-color</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-end.php" target="_blank">border-inline-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-end-color.php" target="_blank">border-inline-end-color</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-end-style.php" target="_blank">border-inline-end-style</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-end-width.php" target="_blank">border-inline-end-width</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-start.php" target="_blank">border-inline-start</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-start-color.php" target="_blank">border-inline-start-color</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-start-style.php" target="_blank">border-inline-start-style</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-start-width.php" target="_blank">border-inline-start-width</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-style.php" target="_blank">border-inline-style</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-inline-width.php" target="_blank">border-inline-width</a>
+<a href="https://www.w3schools.com/cssref/pr_border-left.php" target="_blank">border-left</a>
+<a href="https://www.w3schools.com/cssref/pr_border-left_color.php" target="_blank">border-left-color</a>
+<a href="https://www.w3schools.com/cssref/pr_border-left_style.php" target="_blank">border-left-style</a>
+<a href="https://www.w3schools.com/cssref/pr_border-left_width.php" target="_blank">border-left-width</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-radius.php" target="_blank">border-radius</a>
+<a href="https://www.w3schools.com/cssref/pr_border-right.php" target="_blank">border-right</a>
+<a href="https://www.w3schools.com/cssref/pr_border-right_color.php" target="_blank">border-right-color</a>
+<a href="https://www.w3schools.com/cssref/pr_border-right_style.php" target="_blank">border-right-style</a>
+<a href="https://www.w3schools.com/cssref/pr_border-right_width.php" target="_blank">border-right-width</a>
+<a href="https://www.w3schools.com/cssref/pr_border-spacing.php" target="_blank">border-spacing</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-start-end-radius.php" target="_blank">border-start-end-radius</a>
+<a href="https://www.w3schools.com/cssref/css_pr_border-start-start-radius.php" target="_blank">border-start-start-radius</a>
+<a href="https://www.w3schools.com/cssref/pr_border-style.php" target="_blank">border-style</a>
+<a href="https://www.w3schools.com/cssref/pr_border-top.php" target="_blank">border-top</a>
+<a href="https://www.w3schools.com/cssref/pr_border-top_color.php" target="_blank">border-top-color</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.php" target="_blank">border-top-left-radius</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.php" target="_blank">border-top-right-radius</a>
+<a href="https://www.w3schools.com/cssref/pr_border-top_style.php" target="_blank">border-top-style</a>
+<a href="https://www.w3schools.com/cssref/pr_border-top_width.php" target="_blank">border-top-width</a>
+<a href="https://www.w3schools.com/cssref/pr_border-width.php" target="_blank">border-width</a>
+<a href="https://www.w3schools.com/cssref/pr_pos_bottom.php" target="_blank">bottom</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_box-decoration-break.php" target="_blank">box-decoration-break</a>
+<a href="https://www.w3schools.com/cssref/css_pr_box-reflect.php" target="_blank">box-reflect</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_box-shadow.php" target="_blank">box-shadow</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_box-sizing.php" target="_blank">box-sizing</a>
+<a href="https://www.w3schools.com/cssref/pr_break-after.php" target="_blank">break-after</a>
+<a href="https://www.w3schools.com/cssref/pr_break-before.php" target="_blank">break-before</a>
+<a href="https://www.w3schools.com/cssref/pr_break-inside.php" target="_blank">break-inside</a>
+
+
+<h2>C</h2>
+<a href="https://www.w3schools.com/cssref/pr_tab_caption-side.php" target="_blank">caption-side</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_caret-color.php" target="_blank">caret-color</a>
+<a href="https://www.w3schools.com/cssref/pr_charset_rule.php" target="_blank">@charset</a>
+<a href="https://www.w3schools.com/cssref/pr_class_clear.php" target="_blank">clear</a>
+<a href="https://www.w3schools.com/cssref/pr_pos_clip.php" target="_blank">clip</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_clip-path.php" target="_blank">clip-path</a>
+<a href="https://www.w3schools.com/cssref/pr_text_color.php" target="_blank">color</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_column-count.php" target="_blank">column-count</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_column-fill.php" target="_blank">column-fill</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_column-gap.php" target="_blank">column-gap</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_column-rule.php" target="_blank">column-rule</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_column-rule-color.php" target="_blank">column-rule-color</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_column-rule-style.php" target="_blank">column-rule-style</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_column-rule-width.php" target="_blank">column-rule-width</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_column-span.php" target="_blank">column-span</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_column-width.php" target="_blank">column-width</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_columns.php" target="_blank">columns</a>
+<a href="https://www.w3schools.com/cssref/pr_gen_content.php" target="_blank">content</a>
+<a href="https://www.w3schools.com/cssref/pr_gen_counter-increment.php" target="_blank">counter-increment</a>
+<a href="https://www.w3schools.com/cssref/pr_gen_counter-reset.php" target="_blank">counter-reset</a>
+<a href="https://www.w3schools.com/cssref/pr_gen_counter-set.php" target="_blank">counter-set</a>
+<a href="https://www.w3schools.com/cssref/pr_class_cursor.php" target="_blank">cursor</a>
+
+
+<h2>D</h2>
+<a href="https://www.w3schools.com/cssref/pr_text_direction.php" target="_blank">direction</a>
+<a href="https://www.w3schools.com/cssref/pr_class_display.php" target="_blank">display</a>
+
+
+<h2>E</h2>
+<a href="https://www.w3schools.com/cssref/pr_tab_empty-cells.php" target="_blank">empty-cells</a>
+
+
+<h2>F</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_filter.php" target="_blank">filter</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_flex.php" target="_blank">flex</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_flex-basis.php" target="_blank">flex-basis</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_flex-direction.php" target="_blank">flex-direction</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_flex-flow.php" target="_blank">flex-flow</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_flex-grow.php" target="_blank">flex-grow</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_flex-shrink.php" target="_blank">flex-shrink</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_flex-wrap.php" target="_blank">flex-wrap</a>
+<a href="https://www.w3schools.com/cssref/pr_class_float.php" target="_blank">float</a>
+<a href="https://www.w3schools.com/cssref/pr_font_font.php" target="_blank">font</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_font-face_rule.php" target="_blank">@font-face</a>
+<a href="https://www.w3schools.com/cssref/pr_font_font-family.php" target="_blank">font-family</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_font-feature-settings.php" target="_blank">font-feature-settings</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_font-kerning.php" target="_blank">font-kerning</a>
+<a href="https://www.w3schools.com/cssref/pr_font_font-size.php" target="_blank">font-size</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_font-size-adjust.php" target="_blank">font-size-adjust</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_font-stretch.php" target="_blank">font-stretch</a>
+<a href="https://www.w3schools.com/cssref/pr_font_font-style.php" target="_blank">font-style</a>
+<a href="https://www.w3schools.com/cssref/pr_font_font-variant.php" target="_blank">font-variant</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_font-variant-caps.php" target="_blank">font-variant-caps</a>
+<a href="https://www.w3schools.com/cssref/pr_font_weight.php" target="_blank">font-weight</a>
+
+
+<h2>G</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_gap.php" target="_blank">gap</a>
+<a href="https://www.w3schools.com/cssref/pr_grid.php" target="_blank">grid</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-area.php" target="_blank">grid-area</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-auto-columns.php" target="_blank">grid-auto-columns</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-auto-flow.php" target="_blank">grid-auto-flow</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-auto-rows.php" target="_blank">grid-auto-rows</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-column.php" target="_blank">grid-column</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-column-end.php" target="_blank">grid-column-end</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-column-gap.php" target="_blank">grid-column-gap</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-column-start.php" target="_blank">grid-column-start</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-gap.php" target="_blank">grid-gap</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-row.php" target="_blank">grid-row</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-row-end.php" target="_blank">grid-row-end</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-row-gap.php" target="_blank">grid-row-gap</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-row-start.php" target="_blank">grid-row-start</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-template.php" target="_blank">grid-template</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-template-areas.php" target="_blank">grid-template-areas</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-template-columns.php" target="_blank">grid-template-columns</a>
+<a href="https://www.w3schools.com/cssref/pr_grid-template-rows.php" target="_blank">grid-template-rows</a>
+
+
+<h2>H</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_hanging-punctuation.php" target="_blank">hanging-punctuation</a>
+<a href="https://www.w3schools.com/cssref/pr_dim_height.php" target="_blank">height</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_hyphens.php" target="_blank">hyphens</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_hyphenate-character.php" target="_blank">hypenate-character</a>
+
+
+<h2>I</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_image-rendering.php" target="_blank">image-rendering</a>
+<a href="https://www.w3schools.com/cssref/pr_import_rule.php" target="_blank">@import</a>
+<a href="https://www.w3schools.com/cssref/css_pr_inline-size.php" target="_blank">inline-size</a>
+<a href="https://www.w3schools.com/cssref/css_pr_inset.php" target="_blank">inset</a>
+<a href="https://www.w3schools.com/cssref/css_pr_inset-block.php" target="_blank">inset-block</a>
+<a href="https://www.w3schools.com/cssref/css_pr_inset-block-end.php" target="_blank">inset-block-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_inset-block-start.php" target="_blank">inset-block-start</a>
+<a href="https://www.w3schools.com/cssref/css_pr_inset-inline.php" target="_blank">inset-inline</a>
+<a href="https://www.w3schools.com/cssref/css_pr_inset-inline-end.php" target="_blank">inset-inline-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_inset-inline-start.php" target="_blank">inset-inline-start</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_isolation.php" target="_blank">isolation</a>
+
+
+<h2>J</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_justify-content.php" target="_blank">justify-content</a>
+<a href="https://www.w3schools.com/cssref/css_pr_justify-items.php" target="_blank">justify-items</a>
+<a href="https://www.w3schools.com/cssref/css_pr_justify-self.php" target="_blank">justify-self</a>
+
+
+<h2>K</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_animation-keyframes.php" target="_blank">@keyframes</a>
+
+
+<h2>L</h2>
+<a href="https://www.w3schools.com/cssref/pr_pos_left.php" target="_blank">left</a>
+<a href="https://www.w3schools.com/cssref/pr_text_letter-spacing.php" target="_blank">letter-spacing</a>
+<a href="https://www.w3schools.com/cssref/pr_dim_line-height.php" target="_blank">line-height</a>
+<a href="https://www.w3schools.com/cssref/pr_list-style.php" target="_blank">list-style</a>
+<a href="https://www.w3schools.com/cssref/pr_list-style-image.php" target="_blank">list-style-image</a>
+<a href="https://www.w3schools.com/cssref/pr_list-style-position.php" target="_blank">list-style-position</a>
+<a href="https://www.w3schools.com/cssref/pr_list-style-type.php" target="_blank">list-style-type</a>
+
+
+<h2>M</h2>
+<a href="https://www.w3schools.com/cssref/pr_margin.php" target="_blank">margin</a>
+<a href="https://www.w3schools.com/cssref/css_pr_margin-block.php" target="_blank">margin-block</a>
+<a href="https://www.w3schools.com/cssref/css_pr_margin-block-end.php" target="_blank">margin-block-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_margin-block-start.php" target="_blank">margin-block-start</a>
+<a href="https://www.w3schools.com/cssref/pr_margin-bottom.php" target="_blank">margin-bottom</a>
+<a href="https://www.w3schools.com/cssref/css_pr_margin-inline.php" target="_blank">margin-inline</a>
+<a href="https://www.w3schools.com/cssref/css_pr_margin-inline-end.php" target="_blank">margin-inline-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_margin-inline-start.php" target="_blank">margin-inline-start</a>
+<a href="https://www.w3schools.com/cssref/pr_margin-left.php" target="_blank">margin-left</a>
+<a href="https://www.w3schools.com/cssref/pr_margin-right.php" target="_blank">margin-right</a>
+<a href="https://www.w3schools.com/cssref/pr_margin-top.php" target="_blank">margin-top</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_mask-image.php" target="_blank">mask-image</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_mask-mode.php" target="_blank">mask-mode</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_mask-origin.php" target="_blank">mask-origin</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_mask-position.php" target="_blank">mask-position</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_mask-repeat.php" target="_blank">mask-repeat</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_mask-size.php" target="_blank">mask-size</a>
+<a href="https://www.w3schools.com/cssref/pr_dim_max-height.php" target="_blank">max-height</a>
+<a href="https://www.w3schools.com/cssref/pr_dim_max-width.php" target="_blank">max-width</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.php" target="_blank">@media</a>
+<a href="https://www.w3schools.com/cssref/css_pr_max-block-size.php" target="_blank">max-block-size</a>
+<a href="https://www.w3schools.com/cssref/css_pr_max-inline-size.php" target="_blank">max-inline-size</a>
+<a href="https://www.w3schools.com/cssref/css_pr_min-block-size.php" target="_blank">min-block-size</a>
+<a href="https://www.w3schools.com/cssref/css_pr_min-inline-size.php" target="_blank">min-inline-size</a>
+<a href="https://www.w3schools.com/cssref/pr_dim_min-height.php" target="_blank">min-height</a>
+<a href="https://www.w3schools.com/cssref/pr_dim_min-width.php" target="_blank">min-width</a>
+<a href="https://www.w3schools.com/cssref/pr_mix-blend-mode.php" target="_blank">mix-blend-mode</a>
+
+
+<h2>O</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_object-fit.php" target="_blank">object-fit</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_object-position.php" target="_blank">object-position</a>
+<a href="https://www.w3schools.com/cssref/css_pr_offset.php" target="_blank">offset</a>
+<a href="https://www.w3schools.com/cssref/css_pr_offset-anchor.php" target="_blank">offset-anchor</a>
+<a href="https://www.w3schools.com/cssref/css_pr_offset-distance.php" target="_blank">offset-distance</a>
+<a href="https://www.w3schools.com/cssref/css_pr_offset-path.php" target="_blank">offset-path</a>
+<a href="https://www.w3schools.com/cssref/css_pr_offset-rotate.php" target="_blank">offset-rotate</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_opacity.php" target="_blank">opacity</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_order.php" target="_blank">order</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_orphans.php" target="_blank">orphans</a>
+<a href="https://www.w3schools.com/cssref/pr_outline.php" target="_blank">outline</a>
+<a href="https://www.w3schools.com/cssref/pr_outline-color.php" target="_blank">outline-color</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_outline-offset.php" target="_blank">outline-offset</a>
+<a href="https://www.w3schools.com/cssref/pr_outline-style.php" target="_blank">outline-style</a>
+<a href="https://www.w3schools.com/cssref/pr_outline-width.php" target="_blank">outline-width</a>
+<a href="https://www.w3schools.com/cssref/pr_pos_overflow.php" target="_blank">overflow</a>
+<a href="https://www.w3schools.com/cssref/css_pr_overflow-anchor.php" target="_blank">overflow-anchor</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_overflow-wrap.php" target="_blank">overflow-wrap</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_overflow-x.php" target="_blank">overflow-x</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_overflow-y.php" target="_blank">overflow-y</a>
+<a href="https://www.w3schools.com/cssref/css_pr_overscroll-behavior.php" target="_blank">overscroll-behavior</a>
+<a href="https://www.w3schools.com/cssref/css_pr_overscroll-behavior-block.php" target="_blank">overscroll-behavior-block</a>
+<a href="https://www.w3schools.com/cssref/css_pr_overscroll-behavior-inline.php" target="_blank">overscroll-behavior-inline</a>
+<a href="https://www.w3schools.com/cssref/css_pr_overscroll-behavior-x.php" target="_blank">overscroll-behavior-x</a>
+<a href="https://www.w3schools.com/cssref/css_pr_overscroll-behavior-y.php" target="_blank">overscroll-behavior-y</a>
+
+
+<h2>P</h2>
+<a href="https://www.w3schools.com/cssref/pr_padding.php" target="_blank">padding</a>
+<a href="https://www.w3schools.com/cssref/css_pr_padding-block.php" target="_blank">padding-block</a>
+<a href="https://www.w3schools.com/cssref/css_pr_padding-block-end.php" target="_blank">padding-block-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_padding-block-start.php" target="_blank">padding-block-start</a>
+<a href="https://www.w3schools.com/cssref/pr_padding-bottom.php" target="_blank">padding-bottom</a>
+<a href="https://www.w3schools.com/cssref/css_pr_padding-inline.php" target="_blank">padding-inline</a>
+<a href="https://www.w3schools.com/cssref/css_pr_padding-inline-end.php" target="_blank">padding-inline-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_padding-inline-start.php" target="_blank">padding-inline-start</a>
+<a href="https://www.w3schools.com/cssref/pr_padding-left.php" target="_blank">padding-left</a>
+<a href="https://www.w3schools.com/cssref/pr_padding-right.php" target="_blank">padding-right</a>
+<a href="https://www.w3schools.com/cssref/pr_padding-top.php" target="_blank">padding-top</a>
+<a href="https://www.w3schools.com/cssref/pr_print_pageba.php" target="_blank">page-break-after</a>
+<a href="https://www.w3schools.com/cssref/pr_print_pagebb.php" target="_blank">page-break-before</a>
+<a href="https://www.w3schools.com/cssref/pr_print_pagebi.php" target="_blank">page-break-inside</a>
+<a href="https://www.w3schools.com/cssref/css_pr_paint-order.php" target="_blank">paint-order</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_perspective.php" target="_blank">perspective</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_perspective-origin.php" target="_blank">perspective-origin</a>
+<a href="https://www.w3schools.com/cssref/css_pr_place-content.php" target="_blank">place-content</a>
+<a href="https://www.w3schools.com/cssref/css_pr_place-items.php" target="_blank">place-items</a>
+<a href="https://www.w3schools.com/cssref/css_pr_place-self.php" target="_blank">place-self</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_pointer-events.php" target="_blank">pointer-events</a>
+<a href="https://www.w3schools.com/cssref/pr_class_position.php" target="_blank">position</a>
+
+
+<h2>Q</h2>
+<a href="https://www.w3schools.com/cssref/pr_gen_quotes.php" target="_blank">quotes</a>
+
+
+<h2>R</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_resize.php" target="_blank">resize</a>
+<a href="https://www.w3schools.com/cssref/pr_pos_right.php" target="_blank">right</a>
+<a href="https://www.w3schools.com/cssref/css_pr_rotate.php" target="_blank">rotate</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_row-gap.php" target="_blank">row-gap</a>
+
+
+<h2>S</h2>
+<a href="https://www.w3schools.com/cssref/css_pr_scale.php" target="_blank">scale</a>
+<a href="https://www.w3schools.com/cssref/pr_scroll-behavior.php" target="_blank">scroll-behavior</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin.php" target="_blank">scroll-margin</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-block.php" target="_blank">scroll-margin-block</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-block-end.php" target="_blank">scroll-margin-block-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-block-start.php" target="_blank">scroll-margin-block-start</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-bottom.php" target="_blank">scroll-margin-bottom</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-inline.php" target="_blank">scroll-margin-inline</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-inline-end.php" target="_blank">scroll-margin-inline-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-inline-start.php" target="_blank">scroll-margin-inline-start</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-left.php" target="_blank">scroll-margin-left</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-right.php" target="_blank">scroll-margin-right</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-margin-top</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-block</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-block-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-block-start</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-bottom</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-inline</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-inline-end</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-inline-start</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-left</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-right</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-margin-top.php" target="_blank">scroll-padding-top</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-snap-align.php" target="_blank">scroll-snap-align</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-snap-stop.php" target="_blank">scroll-snap-stop</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scroll-snap-type.php" target="_blank">scroll-snap-type</a>
+<a href="https://www.w3schools.com/cssref/css_pr_scrollbar-color.php" target="_blank">scrollbar-color</a>
+
+
+<h2>T</h2>
+<a href="https://www.w3schools.com/cssref/css3_pr_tab-size.php" target="_blank">tab-size</a>
+<a href="https://www.w3schools.com/cssref/pr_tab_table-layout.php" target="_blank">table-layout</a>
+<a href="https://www.w3schools.com/cssref/pr_text_text-align.php" target="_blank">text-align</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-align-last.php" target="_blank">text-align-last</a>
+<a href="https://www.w3schools.com/cssref/pr_text_text-decoration.php" target="_blank">text-decoration</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-decoration-color.php" target="_blank">text-decoration-color</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-decoration-line.php" target="_blank">text-decoration-line</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-decoration-style.php" target="_blank">text-decoration-style</a>
+<a href="https://www.w3schools.com/cssref/pr_text_text-decoration-thickness.php" target="_blank"></a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-emphasis.php" target="_blank">text-emphasis</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-emphasis-color.php" target="_blank">text-emphasis-color</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-emphasis-position.php" target="_blank">text-emphasis-position</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-emphasis-style.php" target="_blank">text-emphasis-style</a>
+<a href="https://www.w3schools.com/cssref/pr_text_text-indent.php" target="_blank">text-indent</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-justify.php" target="_blank">text-justify</a>
+<a href="https://www.w3schools.com/cssref/css_pr_text-orientation.php" target="_blank">text-orientation</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-overflow.php" target="_blank">text-overflow</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.php" target="_blank">text-shadow</a>
+<a href="https://www.w3schools.com/cssref/pr_text_text-transform.php" target="_blank">text-transform</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-underline-offset.php" target="_blank">text-underline-offset</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_text-underline-position.php" target="_blank">text-underline-position</a>
+<a href="https://www.w3schools.com/cssref/pr_pos_top.php" target="_blank">top</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_transform.php" target="_blank">transform</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_transform-origin.php" target="_blank">transform-origin</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_transform-style.php" target="_blank">transform-style</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_transition.php" target="_blank">transition</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_transition-delay.php" target="_blank">transition-delay</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_transition-duration.php" target="_blank">transition-duration</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_transition-property.php" target="_blank">transition-property</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_transition-timing-function.php" target="_blank">transition-timing-function</a>
+<a href="https://www.w3schools.com/cssref/css_pr_translate.php" target="_blank">translate</a>
+
+
+<h2>U</h2>
+<a href="https://www.w3schools.com/cssref/pr_text_unicode-bidi.php" target="_blank">unicode-bidi</a>
+<a href="https://www.w3schools.com/cssref/pr_text_direction.php" target="_blank">direction</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_user-select.php" target="_blank">user-select</a>
+
+
+<h2>V</h2>
+<a href="https://www.w3schools.com/cssref/pr_pos_vertical-align.php" target="_blank">vertical-align</a>
+<a href="https://www.w3schools.com/cssref/pr_class_visibility.php" target="_blank">visibility</a>
+
+
+<h2>W</h2>
+<a href="https://www.w3schools.com/cssref/pr_text_white-space.php" target="_blank">white-space</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_widows.php" target="_blank">widows</a>
+<a href="https://www.w3schools.com/cssref/pr_dim_width.php" target="_blank">width</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_word-break.php" target="_blank">word-break</a>
+<a href="https://www.w3schools.com/cssref/pr_text_word-spacing.php" target="_blank">word-spacing</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_word-wrap.php" target="_blank">word-wrap</a>
+<a href="https://www.w3schools.com/cssref/css3_pr_writing-mode.php" target="_blank">writing-mode</a>
+
+
+<h2>Z</h2>
+<a href="https://www.w3schools.com/cssref/pr_pos_z-index.php" target="_blank">z-index</a>

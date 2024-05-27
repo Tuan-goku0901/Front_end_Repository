@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Css</title>
+  <link rel="stylesheet" href="./asstes/fontawesome-6.5.1-web/css/all.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#wrap {
+  width: 1300px;
+  margin: 0 auto;
+}
+#header {
+  width: 1300px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+/* Heading logo */
+.heading-title {
+  font-size: 1.1rem;
+}
+.heading-title .title-css{
+  margin-top: -5px;
+  color: #f00;
+  font-size: 42px;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  text-shadow: -6px 3px 6px #1111;
+}
+.heading-title .title-css + p{
+  color: #757575;
+  font-style: italic;
+  margin-left: 5%;
+}
+.title-css + p ~ p{
+  line-height: 1.5;
+  margin-left: 10%;
+}
+
+
+/* Slide navigation */
+#sidenav {
+  margin-top: 100px;
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #111;
+}
+#sidenav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  padding: 6px 8px 6px 16px;
+}
+#sidenav a:hover {
+  color: #fff;
+}
+
+/* Page main content */
+#main {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+#main .title-css {
+  height: 30px;
+  padding: 0px 10px;
+  line-height: 30px;
+  font-size: 18.5px;
+  background-color: #1111;
+  border-radius: 0px 12px 12px 0px;
+}
+#main .title-css ~ .title-css{
+  margin-top: 50px;
+}
+#main .about-text p {
+  margin-top: 10px;
+  font-size: 15.5px;
+  text-align: justify;
+  line-height: 1.5;
+}
+#main .about-text {
+  padding: 0px 16px;
+}
+#main .about-text p i{
+  color: #111;
+  position: relative;
+  top: -2px;
+  font-size: 10px;
+  font-weight: 600;
+}
+#main .about-text ~ .about-text li{
+  margin-top: 5px;
+  font-size: 15px;
+  margin-left: 50px;
+}
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <!-- Heading logo -->
+    <div id="header" style="background: #fff;">
+      <div class="heading-title">
+        <h3 class="title-css">Document about CSS</h3>
+        <p class="sub-title"><i class="fa-solid fa-feather"></i> Motivational sayings : </p>
+        <p>“Bạn muốn tìm một công việc tốt thì trước tiên bạn phải có năng lực và biết giá trị bản thân mình đang nằm ở đâu.”</p>
+      </div>
+    </div>
+
+    <!-- Slide Navigation -->
+    <div id="sidenav">
+      <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+      <a href="#">Html</a>
+      <a href="#">Css</a>
+      <a href="#">JavaScript</a>
+    </div>
+
+    <!-- Page main content -->
+    <div id="main">
+      <h3 class="title-css">I. What is css properties ?</h3>
+      <div class="about-text">
+        <p><i class="fa-solid fa-minus"></i> CSS là chữ viết tắt của Cascading Style Sheets, nó là một ngôn ngữ được sử dụng để
+          tìm và định dạng lại các phần tử
+          được tạo ra bởi các ngôn ngữ đánh dấu (HTML). Nói ngắn gọn hơn là ngôn ngữ tạo phong cách cho trang web. Bạn có thể
+          hiểu đơn giản rằng, nếu HTML đóng vai trò định dạng các phần tử trên website như việc tạo ra các đoạn văn bản, các
+          tiêu đề, bảng,…thì CSS sẽ giúp chúng ta có thể thêm style vào các phần tử HTML đó như đổi bố cục, màu sắc trang, đổi
+          màu chữ, font chữ, thay đổi cấu trúc…</p>
+        <p><i class="fa-solid fa-minus"></i> CSS được phát triển bởi W3C (World Wide Web Consortium) vào năm 1996, vì HTML không
+          được thiết kế để gắn tag để giúp
+          định dạng trang web.</p>
+        <p><i class="fa-solid fa-minus"></i> Phương thức hoạt động của CSS là nó sẽ tìm dựa vào các vùng chọn, vùng chọn có thể
+          là tên một thẻ HTML, tên một ID,
+          class hay nhiều kiểu khác. Sau đó là nó sẽ áp dụng các thuộc tính cần thay đổi lên vùng chọn đó.</p>
+        <p><i class="fa-solid fa-minus"></i> Mối tương quan giữa HTML và CSS rất mật thiết. HTML là ngôn ngữ markup (nền tảng
+          của site) và CSS định hình phong
+          cách (tất cả những gì tạo nên giao diện website), chúng là không thể tách rời.</p>
+      </div>
+
+
+      <h3 class="title-css">II. Bố cục và cấu trúc một đoạn CSS</h3>
+      <div class="about-text"></div>
+
+
+      <h3 class="title-css">III. Cách nhúng CSS vào website</h3>
+      <div class="about-text"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Screen PC : >=1024px
+  Screen TABLE : >= 740px & < 1024px
+  Screen MOBILE : < 740px
+
+  @media (max-width: 740px) and (min-width: 1000px) {}
+  trpng đó :
+  max-width : là chiều rộng tối đa (hiểu nôm là max-width : nhỏ)
+  min-width : là chiều rộng tối thiểu (hiểu nôm là minx-width : lớn)
+  () : điều kiện để chạy
+  {} : Nơi chứa các nội dung đề chạy
+  and : và nghĩa là quy định từ 740px => 1024px để hiển thị
+*/
+.pc,
+.tablet,
+.moblile {
+  font-size: 3rem;
+  margin: 100px 0px;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  /* Khi kích thước màn hình nhỏ hơn hoặc bằng 800px thì
+  3 class pc , tablet, moblile sẽ có color: blue; */
+  .pc,
+  .tablet,
+  .moblile {
+    color: blue;
+  }
+}
+@media (min-width: 1024px) {
+  /* Khi kích thước màn hình lớn hơn hoặc bằng 1000px thì
+  3 class pc , tablet, moblile sẽ có color: chocolate; */
+  .pc,
+  .tablet,
+  .moblile {
+    color: chocolate;
+  }
+}
+/* Question 1 : Giả sử 3 class trên bị ẳn đi . hãy sử dụng @media làm cho :
+.pc-1 : sẽ hiên thị color: red; , font-sise: 30px; khi có kích thước màn hình là 1024px (PC)
+.tablet-1 : sẽ hiên thị color: green; , font-sise: 30px; khi có kích thước màn hình là 724px <= 1024px (TABLET)
+.moblile-1 : sẽ hiên thị color: #ccc; , font-sise: 30px; khi có kích thước màn hình là <= 724px (MOBILE)
+và khi ở kích thước 
+ */
+.pc-1,
+.tablet-1,
+.moblile-1 {
+  font-size: 3rem;
+  margin: 100px 0px;
+  text-align: center;
+  display: none;
+}
+/* answer */
+@media (max-width: 900px) {
+  .pc-1 {
+    color: red;
+    font-size: 30px;
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  .tablet-1 {
+    color: green;
+    font-size: 30px;
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .moblile-1 {
+    color: #ccc;
+    font-size: 30px;
+    display: block;
+  }
+}
+
+.pc-2,
+.tablet-2,
+.moblile-2 {
+  font-size: 50px;
+  text-align: center;
+  margin: 100px 0px;
+  display: none;
+}
+/* Question : khi màn hình ở >= 1024px sẽ hiển thị chữ "PC"
+          khi màn hình ở >= 740px và < 1024px sẽ hiển thị chữ "TABLE"
+          khi màn hình ở < 740px sẽ hiển thị chữ "MOBILE" */
+
+/* BREAK POINT (điểm bẻ) */
+/* khi màn hình ở >= 1024px sẽ hiển thị chữ "PC" */
+@media (min-width: 1024px) {
+  .pc-2 {
+    display: block;
+  }
+}
+/* khi màn hình ở >= 740px và < 1024px sẽ hiển thị chữ "TABLE" */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .tablet-2 {
+    display: block;
+  }
+}
+/* khi màn hình ở < 740px sẽ hiển thị chữ "MOBILE" */
+@media (max-width: 740px) {
+  .moblile-2 {
+    display: block;
+  }
+}

@@ -1,0 +1,30 @@
+/* Responsive  fo screen 1920px*/
+@media (min-width: 1900px) {
+  body {
+    background-color: rgb(203 203 203 / 37%);
+  }
+  #main,#header {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  #main {
+    background-color: #fff;
+  }
+  #header {
+    background-color: #000;
+  }
+  #main-content {
+    padding: 0px 30px;
+  }
+  .slide__img--html{
+    width: 100%;
+    height: 500px;
+  }
+}
+/* Responsive  fo screen <= 1599px*/
+@media (max-width: 1599px) {
+  #main-content {
+    padding: 0px 50px;
+  }
+}
