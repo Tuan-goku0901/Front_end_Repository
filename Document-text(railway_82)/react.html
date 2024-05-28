@@ -63,8 +63,8 @@
         <a href="https://fptshop.com.vn/tin-tuc/danh-gia/git-la-gi-169819#:~:text=tri%E1%BB%83n%20ph%E1%BA%A7n%20m%E1%BB%81m.-,2.%20Ph%C3%A2n%20bi%E1%BB%87t%20Git%20v%C3%A0%20GitHub,-Nh%C6%B0%20%C4%91%C3%A3%20gi%E1%BA%A3i" target="_blank">Phân Biệt Git vs Githup !</a>
         <a href="https://fptshop.com.vn/tin-tuc/danh-gia/git-la-gi-169819#:~:text=repository%20m%C3%A3%20ngu%E1%BB%93n.-,3.%20C%C3%A1c%20l%E1%BB%87nh%20Git%20c%C6%A1%20b%E1%BA%A3n,-3.1.%20Git%20init" target="_blank">Các lệnh git cơ bản</a>
         <a href="https://codestus.com/posts/6-cach-khai-bao-function-trong-javascript" target="_blank">JavaScript ?</a>
-        <a href="" target="_blank">Typescript là gi?</a>
-        <a href="" target="_blank">?????????</a>
+        <a href="https://codestus.com/posts/6-cach-khai-bao-function-trong-javascript" target="_blank">6 cách khai báo function trong JavaScript</a>
+        <a href="https://viblo.asia/p/kieu-du-lieu-trong-javascript-L4x5xLXg5BM" target="_blank">?????????</a>
         <a href="" target="_blank">?????????</a>
         <a href="" target="_blank">?????????</a>
         <a href="" target="_blank">?????????</a>
@@ -97,11 +97,11 @@
           <h3>Nội dung :</h3>
           <ul class="content-recor">
             <li><a href="#git">Git và Githup</a></li>
-            <li><a href="#fe">Html CSS JavaScript?</a></li>
-            <li><a href="#js">JavaScript?</a></li>
-            <li><a href="#ts">Typescript là gi?</a></li>
-            <li><a href="">...........?</a></li>
-            <li><a href="">...........?</a></li>
+            <li><a href="#fe">Html, CSS, JavaScript</a></li>
+            <li><a href="#js">JavaScript</a></li>
+            <li><a href="#ts">Typescript</a></li>
+            <li><a href="#nodejs">Node.JS</a></li>
+            <li><a href="#runts">Run typescript</a></li>
             <li><a href="">...........?</a></li>
             <li><a href="">...........?</a></li>
             <li><a href="">...........?</a></li>
@@ -132,43 +132,97 @@
             <li><strong>git add . ;</strong> thêm tất cả file trong thư mục dấu . nằm sau lệnh git add nghĩa là lấy tất cả các file có trong thu mục</li>
             <li><strong>git push ;</strong> git push được sử dụng để đẩy (push) các commit và thay đổi từ máy tính của bạn lên một remote repository</li>
           </ul>
+
           <div id="fe" class="content--about">
             <h3 class="title-text">Phần II, Vai trò Html, CSS, JavaScript ?</h3>
             <p>HTML – Xây dựng cấu trúc và định dạng các siêu văn bản.</p>
             <p>CSS – Định dạng các siêu văn bản dạng thô tạo ra từ HTML thành một bố cục website, có màu sắc, ảnh nền,….</p>
             <p>Javascript – Tạo ra các sự kiện tương tác với hành động của người dùng (ví dụ như là chat, update nội dung, hiệu ứng slide).</p>
           </div>
+
           <div id="js" class="content--about">
             <h3 class="title-text">Phần III, JavaScript là gì?</h3>
-            <p><strong>JavaScript ?</strong> Javascript là một ngôn ngữ lập trình kịch bản dựa vào đối tượng phát triển có sẵn hoặc tự định nghĩa. Javascript được sử dụng rộng rãi trong các ứng dụng Website.</p>
+            <p><strong>JavaScript ?</strong> Javascript là một ngôn ngữ lập trình kịch bản dựa vào đối tượng phát triển có sẵn hoặc tự định nghĩa. Javascript được sử dụng rộng rãi 
+            trong các ứng dụng Website.</p>
             <ul class="about-text">
               <p>Cách khai báo hàm trong JS</p>
-              <li>Đầu tiên ta có thể khai báo 1 hàm vô cùng đơn giản với từ khóa function, theo sau nó là tên của hàm đó cùng với 1 hoặc nhiều tham số (parameters) được tập hợp lại trong dấu ngoặc tròn (), cuối cùng là phần thân hàm sẽ được nhận biết thông qua cặp ngoặc nhọn {}. <br>
-              function name_function(tham số) {content_code} <br>
+              <li>Đầu tiên ta có thể khai báo 1 hàm vô cùng đơn giản với từ khóa function, theo sau nó là tên của hàm đó cùng với 1 hoặc nhiều tham số (parameters) được tập hợp 
+              lại trong dấu ngoặc tròn (), cuối cùng là phần thân hàm sẽ được nhận biết thông qua cặp ngoặc nhọn {}. <br> function name_function(tham số) {content_code} <br>
               VD. function example() {console.log("Đây là ví dụ");} _or_ VD. function isEven(num) {return num % 2 === 0;}
-             </li>
-              <li>bla</li>
-              <li>bla</li>
-              <p>Datatype in JavaScript</p>
-              <li>bla</li>  
-              <li>bla</li>
-              <li>bla</li>
-              <p>............?</p>
-              <li>bla</li>
-              <li>bla</li>
-              <li>bla</li>
-              <p>............?</p>
+              </li>
+              <p>Gán function vào một biến : Chúng ta khai báo một biến, gán giá trị của biến này là một function</p>
+              <li>const foo = function () {console.log(‘vui lap trinh’)} lưu ý là <strong> không dùng function trước khi khai báo</strong></li>
+              <p>Hàm mũi tên (Arrow Function) </p>
+              <li>Khai báo Arrow Function bằng dấu => mũi tên ... VD. let sum = (a, b) => a + b;</li>
+              <p>Data types</p>
+              <li>Trong JS có 6 kiểu dữ liệu cơ bản : Number, Boolean, String,  Null, Undefined, Object</li>
+              <li>Đọc tại <a href="https://webcoban.vn/javascript/cac-kieu-du-lieu-data-type-trong-javascript.html">webcoban.vn</a> hoặc
+                <a href="https://viblo.asia/p/kieu-du-lieu-trong-javascript-L4x5xLXg5BM">viblo.asia</a> để hiểu kỹ hơn
+              </li>
             </ul>
-            <p><strong>Hạn chế của khi sử dụng JavaScript?</strong> </p>
+            <p><strong>Hạn chế của khi sử dụng JavaScript?</strong> không dõ ràng , không chặt chẽ trong chương trình . VD. nếu trương trình của bạn báo lỗi 
+            và khi bạn debug thì với kiểu dữ liệu mập mờ của JS thì toang nha !</p>
+            <p><strong>Khác nhau giữa tạo đối tương JAVA vs JavaScript</strong> </p>
           </div>
+          
           <div id="ts" class="content--about">
             <h3 class="title-text">Phần III, Typescript là gi?</h3>
             <ul class="about-text">
+              <p style="color: #757575;"><i>Do sự hạn chế của javascript nên đã có sự xuất hiện của ngôn ngữ Typescript để bổ sung lại các thiếu sót đó . Vậy Typescript là gì ?</i></p>
               <p>Typescript ?</p>
-              <li>Không phải là một ngôn ngữ mới</li>
-              <li>Nó chỉ là một phiên bản mở rông của JavaScript</li>
-              <li>Nó không phải là một ngôn ngữ mới</li>
-              <p>Tại sao lại mở rộng Typescript(ts)</p>
+              <li>TypeScript là một ngôn ngữ lập trình được phát triển và duy trì bởi Microsoft , là một ngôn ngữ mã nguồn mở của JavaScript . </li>
+              <li>TypeScript được xem là một phiên bản nâng cao hơn của JavaScript vì nó được thiết kế thêm nhiều chức năng tiện lợi hơn, cải tiến hơn từ những điểm yếu của JavaScript như 
+              các lớp hướng đối tượng và Static Structural typing, bên cạnh đó TypeScript còn có thể hoạt động rộng rãi cho các ứng dụng của ngôn ngữ Angular2 và Nodejs.</li>
+              <li>Typescript Không phải là một ngôn ngữ mới</li>
+              <li>Typescript nó chỉ là một phiên bản mở rộng của JavaScript</li>
+              <li>TypeScript sinh ra chỉ để cho các lập trình viên chứ không cho trình duyệt</li>
+              <!-- <p>Tại sao lại mở rộng Typescript(ts) ?</p> -->
+              <p>Kiểu dữ liệu trong typescript</p>
+              <li>Primitive (kiểu nguyên thủy) : Number, String, Boolean, void, Undefined, Null ...</li>
+              <li>Vậy làm sao để chạy được TypeScript chạy được trên trình duyệt ?</li>
+              <li>Để TypeScript(TS) chạy được trên trình duyệt thì nó phải chuyển đổi thành mã JS và JS thì sẽ chạy được trên trình duyệt </li>
+              <p>Vậy làm sao chuyển đổi từ (TS) thành (JS)</p>
+              <li>Giả sử ta có file là index.js ta run nó trên trình duyệt sau đó từ trình duyệt ta chon inspect để open cửa sổ devtool nên rồi tìm và chọn console và chạy code trên đó
+              nếu làm vậy sẽ rất mất công và thời gian</li>
+              <li>Thay vì làm như trên ta tạo một sever (Node.js) rồi chạy file index.js trên nó sever đó</li>
+            </ul>
+          </div>
+
+          <div id="runts" class="content--about">
+            <h3 class="title-text">Phần IV, Chạy typescript = terminal trên Visua Studio Code</h3>
+            <ul class="about-text">
+              <p>Các bước và lệnh để chạy Typescript</p>
+              <li><strong>B1 :</strong> click chuột trái vào thư mục Demo 1 chọn copy path(lấy đường dẫn của thư mục đó)</li>
+              <li><strong>B2 :</strong> open terminal chọn New terminal nó sẽ hiên thị như sau "PS D:\Railway_82_Repository>"</li>
+              <li><strong>B3 :</strong> dùng lệnh cd + 'đường dẫn của thu mục đó'</li>
+              <li><strong>B4 :</strong> sau B3 ta có cú pháp sau : PS D:\Railway_82_Repository> cd 'D:\Railway_82_Repository\1. Typescript + JS Extra\Demo 1'
+                <ul>
+                  <p><strong>Trong đó :</strong></p>
+                  <li>PS D:\Railway_82_Repository> (terminal)</li>
+                  <li>cd (chuyển thư mục) </li>
+                  <li> ký tự '' () </li>
+                  <li>D:\Railway_82_Repository\1. Typescript + JS Extra\Demo 1 (là đường dẫn của thu mục)</li>
+                  <li><strong style="color: #f00;">Waring :</strong> nếu viết như này cd D:\Railway_82_Repository\1. Typescript + JS Extra\Demo 1 mà không đặt trong dấu ngoặc '' thì sẽ báo lỗi vì nó không hiểu đây là gì vì có các dấu cách</li>
+                </ul>
+              </li>
+              <li><strong>B5 :</strong> khi hiển thị như này PS D:\Railway_82_Repository\1. Typescript + JS Extra\Demo 1> là ok  </li>
+              <li><strong>B6 :</strong> gõ lệnh ls để hiển thị danh sách các file có trong thư mục ... VD. PS D:\Railway_82_Repository\1. Typescript + JS Extra\Demo 1> ls</li>
+              <li><strong>B7 :</strong> sau B6 ta có lệnh tsc + .\Demo1.ts (viết theo kiểu shorthand .\ + tag)... <br>
+              VD. PS D:\Railway_82_Repository\1. Typescript + JS Extra\Demo 1> tsc .\Demo1.ts</li>
+              <li><strong>B8 :</strong> Nếu run ở B7 mà nó bị lỗi có nghĩa là do biến ở môi trường chưa đúng .</li>
+              <li><strong>B9 :</strong> Sửa lỗi B7 như sau ta copy lện này Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted vào và run tiếp</li>
+              <li><strong>B10 :</strong> Dùng lệnh node .\Demo1.js để in ra kết quả ... VD.  PS D:\Railway_82_Repository\1. Typescript + JS Extra\Demo 1> node .\Demo1.js để hiển thị Đoạn mã để in ra màn hình trong JS
+                console.log("fuck me"); result fuck me (^_^)</li>
+            </ul>
+          </div>
+          <div id="nodejs" class="content--about">
+            <h3 class="title-text">Thao tác và cài đặt Node.js </h3>
+            <ul class="about-text">
+              <p>Tại <a href="https://nodejs.org/en" target="_blank">Node.js</a> chọn vào download rồi cài nodejs máy tính sau đó cứ next theo mặc định </p>
+              <li>Sau khi cài song mở cmd dùng các lệnh để kiểm tra xem mình đã cài ok Nodejs chưa</li>
+              <li>node -v / npm -v ; kiểm tra Version nodejs</li>
+              <li>npm install -g typescript : cài đặt typescript nếu đã cài đặt rồi thì nó sẽ tự update nên Version new</li>
+              <li>Sau lệnh <i>npm install -g typescript</i> ta dùng lệnh tsc --version để kiểm tra xem cài đặt được chưa</li>
               <li></li>
             </ul>
           </div>
